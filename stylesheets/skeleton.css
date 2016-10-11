@@ -1,0 +1,1639 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Landscape)
+    #Mobile (Portrait)
+    #Clearing */
+
+
+
+/* #Base 960 Grid
+================================================== */
+
+    .mainContainer {
+    	width: 100%;
+    	max-width: 100%;
+    	background-color: #F7F8F8;
+    }
+    
+    h1, h2, h3, h4, a {
+    	font-family: Lato;
+    	font-weight: 300;
+    	/*color: #2B0F43;*/
+    	color: #231F20;
+    }
+    
+    a {
+    	text-decoration: none;
+    }
+    
+    .container { 
+    	
+    	position: relative; width: 870px; margin: 0 auto; padding: 0; font-family: normal 100% 'Lato', sans-serif; z-index: 1;
+    	
+    }
+    
+   
+    header {
+    	width: 100%;
+    	height: 50px;
+    	padding: 14px 0 0px 0;
+/*
+    	background: #FFF;
+    	background-color:rgba(255,255,255,1);
+*/
+    	position: fixed;
+    	z-index: 5;
+    	border-bottom: solid 1px rgba(0,0,0,0.03);
+    }
+    
+    header .one {
+    	float: left;
+    	
+    	
+    }
+    
+    	header nav {
+    		margin: 0px auto 0 auto;
+    		width: 13.5em;
+    		
+    	}
+    	
+    	header nav ul {
+    		overflow: hidden;
+    	}
+    	
+    		header nav li {
+    			float: left;
+    		}
+    		
+	    		header nav li a {
+	    			text-decoration: none;
+	    			
+	    		}
+	    		
+	    			header nav li h3 {
+	    				font-size: 12px;
+	    				margin-right: 18px;
+	    				color: #000;
+                        font-weight: 700;
+                        text-transform: uppercase;
+	    			}
+	    			
+	    			header nav li .last {
+	    				margin-right: 0;
+	    			}
+	    			
+	    			header nav h3:hover, nav li .active {
+	    				text-decoration: line-through;
+	    			}
+	    			
+	    			
+	    			
+	    header .fb-like  {
+	    	float: right;
+	    	width: 133px;
+	    	margin-top: -67px;
+            
+            display: none;
+	    }	
+
+
+@media (min-width: 768px) {
+		
+		header .fb-like  {
+	    	display: block;
+	    }
+}
+
+        
+	    
+	    
+	 		
+	    			
+	    			
+	.intro {
+		padding-top: 120px;
+	}
+	
+	
+	
+		
+	
+	.work {
+		padding-top: 64px;
+	}
+	
+	
+	.work section {
+		border-bottom: solid 1px rgba(0,0,0,0.1);
+		overflow: hidden;
+		
+		padding: 66px 0;
+		
+		
+		-webkit-transition: background-color 0.2s ease-in-out;
+		     -moz-transition: background-color 0.2s ease-in-out;
+		     -o-transition: background-color 0.2s ease-in-out;
+		     -ms-transition: background-color 0.2s ease-in-out;
+		     transition: background-color 0.2s ease-in-out;
+		
+	}
+	
+	.work section:hover {
+		
+		background: #FED500;
+		cursor: pointer;
+		
+	}
+	
+		.work section .projectImage {
+			width: 474px;
+			height: 243px;
+			float: left;
+			border: solid 1px rgba(0,0,0,0.1);
+			background-repeat:no-repeat;
+		}
+	
+		.work section .projectInfo {
+			
+			width: 30%;
+			float: right;
+			
+			padding: 86px 50px 66px 50px;
+			
+			/*border: solid 1px;*/
+			
+		}
+		
+			.work section .projectInfo h2 {
+				
+				color: #111;
+				margin-bottom: -4px;
+				
+				font-size: 32px;
+				
+				line-height: 30px;
+				
+				/*text-align: center;*/
+				
+				font-family: 'Playfair Display SC', serif;
+				font-weight: 400;
+				
+			}
+			
+			.work section .projectInfo h3 {
+				
+				color: #111;
+				margin-top: 8px;
+				
+				font-size: 16px;
+				
+				/*text-align: center;*/
+				
+				font-family: 'Lato', sans-serif;
+				font-weight: 300;
+				
+				text-transform: uppercase;
+				
+			}
+			
+			
+			/* Animation Containers */
+
+
+			.work #captifyDmexcoAnimation {
+			
+				background-image:url('../img/work/captifyDmexco/slider/captifyDmexco960.gif');
+				
+			}
+            
+
+            .work #molAnimation {
+			
+				background-image:url('../img/work/mol/slider/mol960.gif');
+				
+			}
+
+            .work #zawyaAnimation {
+			
+				background-image:url('../img/work/zawya/slider/zawya960.gif');
+				
+			}
+			
+			.work #elre7laAnimation {
+			
+				background-image:url('../img/work/elre7la/slider/elre7la960.gif');
+				
+			}
+			
+			.work #inReminiscenceAnimation {
+			
+				background-image:url('../img/work/inReminiscence/slider/inReminiscence960.gif');
+				
+			}
+			
+			.work #tedxgucAnimation {
+			
+				background-image:url('../img/work/tedxguc/slider/tedxguc960.gif');
+				
+			}
+			
+			.work #theGodImageAnimation {
+			
+				background-image:url('../img/work/theGodImage/slider/theGodImage960.gif');
+				
+			}
+			
+			.work #scfAnimation {
+			
+				background-image:url('../img/work/scf/slider/scf960.gif');
+				
+			}
+			
+			
+			.work #timeBombAnimation {
+			
+				background-image:url('../img/work/timeBomb/slider/timeBomb960.gif');
+				
+			}
+			
+			.work #bondoqAnimation {
+			
+				background-image:url('../img/work/bondoq/slider/bondoq960.gif');
+				
+			}
+			
+			.work #cinemagraphsAnimation {
+			
+				background-image:url('../img/work/cinemagraphs/slider/cinemagraphs960.gif');
+				
+			}
+			
+			.work #digitalPaintingsAnimation {
+			
+				background-image:url('../img/work/digitalPaintings/slider/digitalPaintings960.gif');
+				
+			}
+	
+	
+	
+	/* Projects */
+	
+	.project {
+		padding-top: 64px;
+	}
+	
+		.project #projectNav {
+			padding: 20px 0;
+			height: 10px;
+			width: 260px;
+			overflow: hidden;
+			border-bottom: solid 1px rgba(0,0,0,0.1);
+			margin-bottom: 40px;
+		}
+		
+			.project #projectNav #before {
+				float: left;
+			}
+			
+			.project #projectNav #after {
+				float: right;
+			}
+			
+			.project #projectNav #before, 
+			.project #projectNav #after {
+				opacity: 0.65;
+			}
+			
+			.project #projectNav #before:hover, 
+			.project #projectNav #after:hover {
+				opacity: 1;
+			}
+			
+			.project #projectNav h2 {
+				text-align: center;
+				
+				color: #111;
+				margin-top: -15px;
+				
+				font-size: 22px;
+				
+				/*text-align: center;*/
+				
+				font-family: 'Lato', sans-serif;
+				font-weight: 300;
+			}
+			
+			
+	
+	.project iframe {
+		width: 870px;
+		height: 489px;
+	}
+	
+	.project section img {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	
+	/* Cinemagraph Images */
+	
+	/*.cinemagraphs section {
+		border: solid 1px;
+	}*/
+	
+	.cinemagraphs section img {
+		width: auto;
+		margin-bottom: -2px;
+	}
+	
+	.cinemagraphs section img:nth-child(1),
+	.cinemagraphs section img:nth-child(2) {
+		height: 383px;
+	}
+	
+	.cinemagraphs section img:nth-child(3),
+	.cinemagraphs section img:nth-child(4) {
+		height: 230px;
+	}
+	
+	.cinemagraphs section img:nth-child(5),
+	.cinemagraphs section img:nth-child(6) {
+		height:253px;
+	}
+	
+	.cinemagraphs section img:nth-child(7){
+		height: 347px;
+		
+		margin-bottom: 20px;
+	}
+	
+	.cinemagraphs section img:nth-child(8){
+		height: 348px;
+		
+		margin-bottom: 20px;
+	}
+	
+	
+	.project #text {
+		
+		width: 420px;
+		margin: 20px auto 100px auto;
+	
+	}
+	
+	.project section p {
+	
+		font-size: 12px;
+		
+		padding: 10px 0 0px 0;
+		
+		margin: 0;
+		
+	}
+	
+	.project section h2 {
+	
+		font-size: 14px;
+		
+		padding: 20px 0 0px 0;
+		
+		margin: 0;
+		
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		
+        text-transform: uppercase;
+	}
+	
+	.project section p a {
+	
+		font-size: 12px;
+		
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		
+		padding: 20px 0 0px 0;
+		
+		margin: 0;
+		
+		overflow: hidden;
+		
+	}
+	
+	.project section p a:hover {
+	
+		text-decoration: underline;
+		
+	}
+	
+	.project #text p a .arrow {
+	
+		width: 40px;
+		float: left;
+		margin: 6px 14px 0 0;
+		
+	}
+	
+	
+	
+	/* About */
+	
+	.about section img {
+		width: 100%;
+	}
+	
+	.about section p {
+	
+		width: 30em;
+		
+		font-size: 13px;
+		
+		margin: 60px auto;
+		
+		padding: 20px 0;
+		
+		border-top: solid 1px #111;
+		
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		
+		
+	}
+
+    .about #aboutIntro {
+        font-weight: 600;
+        border-top: none;
+        color: #000;
+    }
+	
+	.about section p a:hover {
+	
+		text-decoration: underline;
+		
+	}
+	
+	
+	/*@-webkit-keyframes bike1 /* Safari and Chrome *!/
+	
+	{
+	
+	0%   {
+		opacity: 1;
+		}
+		
+	1%   {
+		opacity: 0;
+		}
+		
+	100% {
+		opacity: 0;
+		}
+	
+	}
+	
+	
+	@keyframes bike1 {
+	
+	0%   {
+		opacity: 1;
+		}
+		
+	1%   {
+		opacity: 0;
+		}
+		
+	100% {
+		opacity: 0;
+		}		
+	}*/
+	
+	
+	
+	@keyframes bike2 {
+	
+	0%   {
+		left: 50%;
+		opacity: 100;
+		}
+		
+	48%  {
+		left: 170%;
+		opacity: 100;
+		}
+		
+	49%  {
+		left: 170%;
+		opacity: 0;
+		}
+		
+	50%  {
+		left: -50%;
+		opacity: 0;
+		}
+		
+	51%  {
+		left: -50%;
+		opacity: 100;
+		}
+		
+	100% {
+		left: 50%;
+		opacity: 100;
+		}
+		
+	}
+	
+	
+	@-webkit-keyframes bike2 /* Safari and Chrome */
+	
+	{
+	
+	0%   {
+		left: 50%;
+		opacity: 100;
+		}
+		
+	48%  {
+		left: 170%;
+		opacity: 100;
+		}
+		
+	49%  {
+		left: 170%;
+		opacity: 0;
+		}
+		
+	50%  {
+		left: -50%;
+		opacity: 0;
+		}
+		
+	51%  {
+		left: -50%;
+		opacity: 100;
+		}
+		
+	100% {
+		left: 50%;
+		opacity: 100;
+		}
+	
+	}
+	
+	
+	/*#bike1 {
+		position: absolute;
+		position: relative;
+		float: left;
+		top: 40px;
+		margin-bottom: 96px;
+		margin-left: -118px;
+		left: 50%;
+		
+		animation: bike 26s ease-out 10s;
+		/* Safari and Chrome: *!/
+		-webkit-animation: bike1 26s ease-out 10s;
+		
+		animation-iteration-count:1;
+		-webkit-animation-iteration-count:1;
+		
+	}*/
+	
+	
+	
+	#bike2 {
+		position: absolute;
+		position: relative;
+		top: 40px;
+		margin-bottom: 96px;
+		margin-left: -118px;
+		left: 50%;
+		
+		height: 243px;
+		width: 234px;
+		
+		background-image:url('../img/mainElements/Girl-on-Bike.gif');
+		
+		animation: bike2 26s ease-out 10s;
+		/* Safari and Chrome: */
+		-webkit-animation: bike2 26s ease 10s;
+		
+		animation-iteration-count:1;
+		-webkit-animation-iteration-count:1;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	footer {
+		border: solid 8px #FED500;
+		background: #fff;
+		
+		overflow: hidden;
+		
+		padding: 30px 40px;
+	}
+		
+		footer > div > div {
+			width: 32%;
+			float: left;
+			margin-right: 2%;
+		}
+		
+		footer >div > .last {
+			margin-right: 0;
+		}
+		
+			footer h3 {
+				color: #111;
+				margin-bottom: 24px;
+				
+				font-size: 20px;
+				
+				font-family: 'Playfair Display SC', serif;
+				font-weight: 400;
+			}
+			
+			footer p {
+				font-family: Lato;
+				font-weight: 400;
+				
+				color: #444444;
+				
+				font-size: 12px;
+				line-height: 1.5em;
+				
+				margin: 0;
+				
+				max-width: 22em;
+			}
+			
+				footer p a {
+					text-decoration: none;
+					color: #000000;
+				}
+				
+				footer p a:hover {
+					text-decoration: underline;
+					
+				}
+				
+				footer #copyright {
+					margin-top: 40px;
+					margin-bottom: 4px;
+				}
+				
+				footer #contact {
+					margin-top: 53px;
+				}
+				
+				
+				
+				footer form {
+					width: 100%;
+				}
+				
+				footer form .input, footer form textarea {
+					background: #F0F2F1;
+					border: none;
+					margin-bottom: 10px;
+					
+					font-size: 12px;
+					font-weight: 300;
+					
+					color: #444444;
+					
+					padding: 10px;
+					
+					border-radius: 0;
+					
+					width: 257px;
+				}
+				
+				footer form .input:focus, footer form textarea:focus {
+					border: none;
+				}
+				
+				footer form textarea {
+					height: 94px;
+					resize:vertical;
+				}
+				
+				footer form #submit {
+					background: #000;
+					color: #FFF;
+					
+					margin: 0;
+					border: none;
+					
+					
+					-webkit-border-radius: 0px;
+					-moz-border-radius: 0px;
+					border-radius: 0;
+					
+					
+					width: 100%;
+					text-shadow: none;
+					
+					font-weight: 300;
+					
+					padding: 10px;
+					
+					width: 100%;
+					
+					-webkit-transition: all 0.1s ease-in-out;
+					     -moz-transition: all 0.1s ease-in-out;
+					     -o-transition: all 0.1s ease-in-out;
+					     -ms-transition: all 0.1s ease-in-out;
+					     transition: all 0.1s ease-in-out;
+				}
+				
+				footer form #submit:hover {
+					background: #FED500;
+					color: #000;
+				}
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (max-width: 959px) {
+    
+    
+    	body {
+    		min-width: 754px;
+    	}
+    	
+    	.container { 
+    		width: 660px;
+    	}
+    	
+    	
+        .project iframe {
+        	width: 660px;
+        	height: 371px;
+        }
+        
+        
+        
+        
+        
+        
+        .work section {
+        	
+        	padding: 66px 0 36px 0;
+        	
+        }
+        
+        
+        .work section .projectImage {
+    		
+    		width: 474px;
+    		height: 243px;
+    		float: none;
+    		
+    		margin: 0 auto;
+    		
+    		border: solid 1px rgba(0,0,0,0.1);
+    		background-repeat:no-repeat;
+    		
+        	}
+        
+    	.work section .projectInfo {
+    		
+    		width: 474px;
+    		float: none;
+    		
+    		margin: 0 auto;
+    		
+    		padding: 26px 0px 10px 0px;
+    		
+    		/*border: solid 1px rgba(0,0,0,0.1);*/
+    		
+    	}
+    	
+    		.work section .projectInfo h2 {
+    			
+    			font-size: 28px;
+    			
+    			line-height: 25px;
+    			
+    		}
+    		
+    		
+    		
+    		/* Cinemagraph Images */
+    		
+    		/*.cinemagraphs section {
+    			border: solid 1px;
+    		}*/
+    		
+    		.cinemagraphs section img {
+    			width: auto;
+    			margin-bottom: -2px;
+    		}
+    		
+    		.cinemagraphs section img:nth-child(1),
+    		.cinemagraphs section img:nth-child(2) {
+    			height: 290px;
+    		}
+    		
+    		.cinemagraphs section img:nth-child(3),
+    		.cinemagraphs section img:nth-child(4) {
+    			height: 174px;
+    		}
+    		
+    		.cinemagraphs section img:nth-child(5) {
+    			height:191px;
+    		}
+    		
+    		.cinemagraphs section img:nth-child(6) {
+    			height:192px;
+    		}
+    		
+    		.cinemagraphs section img:nth-child(7),
+    		.cinemagraphs section img:nth-child(8){
+    			height: 263px;
+    			
+    			margin-bottom: 20px;
+    		}
+    	
+    	
+    	
+    	
+    	
+ 		.about section p {
+ 			margin: 50px auto;
+ 		}
+        
+        
+        
+        
+        
+        
+        footer #contact {
+			margin-top: 54px;
+		}
+		
+		footer > div > div {
+			width: 50%;
+			float: left;
+			margin-right: 0;
+			margin-top: 340px;
+		}
+		
+		footer > div .last {
+			width: 660px;
+			margin-top: -660px;
+		}
+		
+		footer form .input, footer form textarea {
+			width: 640px;
+		}
+
+
+	
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (max-width: 754px) {
+        
+        
+        body {
+        	min-width: 440px;
+        }
+        
+        
+        .container { width: 410px;}
+    
+    
+    	
+    	header .fb-like  {
+    		width: 75px;
+    	}
+    	
+    	
+    	
+    	.work, .project {
+    		padding-top: 64px;
+    	}
+    	
+    	
+    	
+    	.work section {
+    		
+    		padding: 44px 0 24px 0;
+    		
+    	}
+    	
+    	
+    	.work section .projectImage {
+    			width: 408px;
+    			height: 210px;
+    		}
+    	
+    		.work section .projectInfo {
+    			
+    			width: 410px;
+    			float: none;
+    			
+    			margin: 0 auto;
+    			
+    			padding: 26px 0px 0px 0px;
+    			
+    			/*border: solid 1px rgba(0,0,0,0.1);*/
+    			
+    		}
+    		
+    			.work section .projectInfo h2 {
+    				
+    				margin-bottom: -4px;
+    				
+    				font-size: 28px;
+    				
+    				line-height: 25px;
+    				
+    			}
+    	
+    	
+    	
+    	
+    	
+    	
+    	/* Animation Containers */
+    	
+    	
+        .work #captifyDmexcoAnimation {
+    	
+    		background-image:url('../img/work/captifyDmexco/slider/captifyDmexco410.gif');
+    		
+    	}
+		
+		.work #molAnimation {
+    	
+    		background-image:url('../img/work/mol/slider/mol410.gif');
+    		
+    	}
+    	
+    	.work #zawyaAnimation {
+    	
+    		background-image:url('../img/work/zawya/slider/zawya410.gif');
+    		
+    	}
+        
+        .work #elre7laAnimation {
+    	
+    		background-image:url('../img/work/elre7la/slider/elre7la410.gif');
+    		
+    	}
+    	
+    	.work #inReminiscenceAnimation {
+    	
+    		background-image:url('../img/work/inReminiscence/slider/inReminiscence410.gif');
+    		
+    	}
+    	
+    	.work #tedxgucAnimation {
+    	
+    		background-image:url('../img/work/tedxguc/slider/tedxguc410.gif');
+    		
+    	}
+    	
+    	.work #theGodImageAnimation {
+    	
+    		background-image:url('../img/work/theGodImage/slider/theGodImage410.gif');
+    		
+    	}
+    	
+    	.work #scfAnimation {
+    	
+    		background-image:url('../img/work/scf/slider/scf410.gif');
+    		
+    	}
+    	
+    	.work #timeBombAnimation {
+    	
+    		background-image:url('../img/work/timeBomb/slider/timeBomb410.gif');
+    		
+    	}
+    	
+    	.work #bondoqAnimation {
+    	
+    		background-image:url('../img/work/bondoq/slider/bondoq410.gif');
+    		
+    	}
+    	
+    	.work #cinemagraphsAnimation {
+    	
+    		background-image:url('../img/work/cinemagraphs/slider/cinemagraphs410.gif');
+    		
+    	}
+    	
+    	.work #digitalPaintingsAnimation {
+    	
+    		background-image:url('../img/work/digitalPaintings/slider/digitalPaintings410.gif');
+    		
+    	}
+    	
+    	
+    	
+    	
+    	
+    	.about section p {
+    		width: 410px;
+    		margin: 40px auto;
+    	}
+    	
+    	
+    
+	    .project iframe {
+	    	width: 410px;
+	    	height: 231px;
+	    }
+	    
+	    
+	    
+	    /* Cinemagraph Images */
+	    
+	    
+	    .cinemagraphs section img {
+	    	width: auto;
+	    	margin-bottom: -2px;
+	    }
+	    
+	    .cinemagraphs section img:nth-child(1),
+	    .cinemagraphs section img:nth-child(2),
+	    .cinemagraphs section img:nth-child(3),
+	    .cinemagraphs section img:nth-child(4),
+	    .cinemagraphs section img:nth-child(5),
+	    .cinemagraphs section img:nth-child(6),
+	    .cinemagraphs section img:nth-child(7),
+	    .cinemagraphs section img:nth-child(8) {
+	    	width: 410px;
+	    	height: auto;
+	    	margin-bottom: -2px;
+	    }
+	    
+	    .cinemagraphs section img:nth-child(8) {
+	    	margin-bottom: 20px;
+	    }
+	    
+	    
+	    
+	    footer {
+	    	padding: 15px 15px;
+	    }
+	    
+	    footer #contact {
+	    	margin-top: 36px;
+	    }
+	    
+	    footer > div .last {
+	    	width: 410px;
+	    	margin-top: -660px;
+	    }
+	    
+	    footer form .input, footer form textarea {
+	    	width: 390px;
+	    }
+
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 440px) {
+        
+        
+        body {
+        	min-width: 300px;
+        }
+        
+        .container { width: 270px;}
+        
+        
+        header nav {
+        	margin:  0;
+        	float: right;
+        }
+        
+        
+        header .fb-like {
+        	display: none;
+        }
+        
+          
+        
+        
+        .work section {
+        	
+        	padding: 40px 0 20px 0;
+        	
+        }
+        
+        
+        .work section .projectImage {
+        		width: 268px;
+        		height: 139px;
+        	}
+        
+        	.work section .projectInfo {
+        		
+        		width: 270px;
+        		
+        		padding: 26px 0px 0px 0px;
+        		
+        		/*border: solid 1px rgba(0,0,0,0.1);*/
+        		
+        	}
+        	
+        		.work section .projectInfo h2 {
+        			
+        			margin-bottom: -12px;
+        			
+        			font-size: 22px;
+        			
+        			line-height: 24px;
+        			
+        		}
+        		
+        		.work section .projectInfo h3 {
+        			
+        			font-size: 14px;
+        			
+        		}
+        
+        
+        
+        
+        
+        
+        /* Animation Containers */
+        
+        
+        .work #captifyDmexcoAnimation {
+    	
+    		background-image:url('../img/work/captifyDmexco/slider/captifyDmexco270.gif');
+    		
+    	}
+		
+		.work #molAnimation {
+        
+        	background-image:url('../img/work/mol/slider/mol270.gif');
+        	
+        }
+        
+        .work #zawyaAnimation {
+        
+        	background-image:url('../img/work/zawya/slider/zawya270.gif');
+        	
+        }
+        
+        .work #elre7laAnimation {
+        
+        	background-image:url('../img/work/elre7la/slider/elre7la270.gif');
+        	
+        }
+        
+        .work #inReminiscenceAnimation {
+        
+        	background-image:url('../img/work/inReminiscence/slider/inReminiscence270.gif');
+        	
+        }
+        
+        .work #tedxgucAnimation {
+        
+        	background-image:url('../img/work/tedxguc/slider/tedxguc270.gif');
+        	
+        }
+        
+        .work #theGodImageAnimation {
+        
+        	background-image:url('../img/work/theGodImage/slider/theGodImage270.gif');
+        	
+        }
+        
+        .work #scfAnimation {
+        
+        	background-image:url('../img/work/scf/slider/scf270.gif');
+        	
+        }
+        
+        .work #timeBombAnimation {
+        
+        	background-image:url('../img/work/timeBomb/slider/timeBomb270.gif');
+        	
+        }
+        
+        .work #bondoqAnimation {
+        
+        	background-image:url('../img/work/bondoq/slider/bondoq270.gif');
+        	
+        }
+        
+        .work #cinemagraphsAnimation {
+        
+        	background-image:url('../img/work/cinemagraphs/slider/cinemagraphs270.gif');
+        	
+        }
+        
+        .work #digitalPaintingsAnimation {
+        
+        	background-image:url('../img/work/digitalPaintings/slider/digitalPaintings270.gif');
+        	
+        }
+        
+        
+        
+        .project #projectNav {
+        	width: 270px;
+        }
+    
+    
+    
+	    .project iframe {
+	    	width: 270px;
+	    	height: 152px;
+	    }
+	    
+	    
+	    .project #text {
+	    	
+	    	width: 270px;
+	    	margin: 20px auto 100px auto;
+	    
+	    }
+	    
+	    
+	    
+	    /* Cinemagraph Images */
+	    
+	    
+	    .cinemagraphs section img {
+	    	width: auto;
+	    	margin-bottom: -2px;
+	    }
+	    
+	    .cinemagraphs section img:nth-child(1),
+	    .cinemagraphs section img:nth-child(2),
+	    .cinemagraphs section img:nth-child(3),
+	    .cinemagraphs section img:nth-child(4),
+	    .cinemagraphs section img:nth-child(5),
+	    .cinemagraphs section img:nth-child(6),
+	    .cinemagraphs section img:nth-child(7),
+	    .cinemagraphs section img:nth-child(8) {
+	    	width: 270px;
+	    	height: auto;
+	    	margin-bottom: -2px;
+	    }
+	    
+	    .cinemagraphs section img:nth-child(8) {
+	    	margin-bottom: 20px;
+	    }
+	    
+	    
+	    
+	    
+	    #bike {
+	    	width: 200px;
+	    	margin-left: -100px;
+	    }
+	    
+	    
+	    .about section p {
+	    	width: 270px;
+	    	margin: 30px auto;
+	    }
+	    
+	    
+	    
+	    
+	    footer {
+	    	padding: 10px 10px 0px 10px;
+	    }
+	    
+	    footer #contact {
+	    	margin-top: 20px;
+	    }
+	    
+	    footer > div > div {
+	    	width: 100%;
+	    	
+	    	margin-top: 0px;
+	    	margin-bottom: 20px;
+	    }
+	    
+	    footer > div .last {
+	    	width: 270px;
+	    	margin-top: 0;
+	    	margin-bottom: 0px;
+	    }
+	    
+	    footer form .input, footer form textarea {
+	    	width: 250px;
+	    }
+	    
+	    
+	  
+/*  #Mobile (Small Phone)
+================================================== */
+
+    /* Note: Design for a width of 240px */
+
+    @media only screen and (max-width: 240px) {
+        
+        
+        body {
+        	min-width: 180px;
+        }
+        
+        
+        .container { width: 200px;}
+        
+        
+        header {
+        	height: 100px;
+        }
+        
+        header nav {
+        	margin: 10px auto 0 auto;
+        }
+        
+        header .fb-like {
+        	display: none;
+        }
+        
+        
+        
+        .work, .project {
+        	padding-top: 114px;
+        }
+        
+        
+        /* Cinemagraph Images */
+        
+        
+        .cinemagraphs section img {
+        	width: auto;
+        	margin-bottom: -2px;
+        }
+        
+        .cinemagraphs section img:nth-child(1),
+        .cinemagraphs section img:nth-child(2),
+        .cinemagraphs section img:nth-child(3),
+        .cinemagraphs section img:nth-child(4),
+        .cinemagraphs section img:nth-child(5),
+        .cinemagraphs section img:nth-child(6),
+        .cinemagraphs section img:nth-child(7),
+        .cinemagraphs section img:nth-child(8) {
+        	width: 200px;
+        	height: auto;
+        	margin-bottom: -2px;
+        }
+        
+        .cinemagraphs section img:nth-child(8) {
+        	margin-bottom: 20px;
+        }
+        
+        
+        
+        
+        
+        .work section {
+        	
+        	padding: 30px 0 10px 0;
+        	
+        }
+        
+        
+        .work section .projectImage {
+        		width: 198px;
+        		height: 103px;
+        	}
+        
+        	.work section .projectInfo {
+        		
+        		width: 200px;
+        		
+        		padding: 26px 0px 10px 0px;
+        		
+        		/*border: solid 1px rgba(0,0,0,0.1);*/
+        		
+        	}
+        	
+        		.work section .projectInfo h2 {
+        			
+        			margin-bottom: -4px;
+        			
+        			font-size: 22px;
+        			
+        			line-height: 24px;
+        			
+        		}
+        		
+        		.work section .projectInfo h3 {
+        			
+        			font-size: 14px;
+        			
+        			line-height: 20px;
+        			
+        		}
+        
+        
+        
+        
+        
+        
+        /* Animation Containers */
+        
+        
+        
+        .work #captifyDmexcoAnimation {
+    	
+    		background-image:url('../img/work/captifyDmexco/slider/captifyDmexco200.gif');
+    		
+    	}
+		
+		.work #molAnimation {
+        
+        	background-image:url('../img/work/mol/slider/mol200.gif');
+        	
+        }
+        
+        .work #zawyaAnimation {
+        
+        	background-image:url('../img/work/zawya/slider/zawya200.gif');
+        	
+        }
+        
+        .work #elre7laAnimation {
+        
+        	background-image:url('../img/work/elre7la/slider/elre7la200.gif');
+        	
+        }
+        
+        .work #inReminiscenceAnimation {
+        
+        	background-image:url('../img/work/inReminiscence/slider/inReminiscence200.gif');
+        	
+        }
+        
+        .work #tedxgucAnimation {
+        
+        	background-image:url('../img/work/tedxguc/slider/tedxguc200.gif');
+        	
+        }
+        
+        .work #theGodImageAnimation {
+        
+        	background-image:url('../img/work/theGodImage/slider/theGodImage200.gif');
+        	
+        }
+        
+        .work #scfAnimation {
+        
+        	background-image:url('../img/work/scf/slider/scf200.gif');
+        	
+        }
+        
+        .work #timeBombAnimation {
+        
+        	background-image:url('../img/work/timeBomb/slider/timeBomb200.gif');
+        	
+        }
+        
+        .work #bondoqAnimation {
+        
+        	background-image:url('../img/work/bondoq/slider/bondoq200.gif');
+        	
+        }
+        
+        .work #cinemagraphsAnimation {
+        
+        	background-image:url('../img/work/cinemagraphs/slider/cinemagraphs200.gif');
+        	
+        }
+        
+        .work #digitalPaintingsAnimation {
+        
+        	background-image:url('../img/work/digitalPaintings/slider/digitalPaintings200.gif');
+        	
+        }
+        
+        
+        
+        .project #projectNav {
+        	width: 200px;
+        }
+        
+        
+    	.project #projectNav h2 {
+    		display: none;
+    	}
+    
+    
+	    .project iframe {
+	    	width: 200px;
+	    	height: 113px;
+	    }
+    
+    
+    	.project #text {
+    		
+    		width: 200px;
+    		margin: 20px auto 100px auto;
+    	
+    	}
+    	
+    	
+    	#bike {
+    		width: 160px;
+    		margin-left: -80px;
+    	}
+    	
+    	
+    	.about section p {
+    		width: 200px;
+    		margin: 20px auto;
+    	}
+    
+    
+    	footer {
+    		padding: 10px 10px 0px 10px;
+    	}
+
+		footer > div .last {
+			width: 200px;
+			margin-top: 0;
+			margin-bottom: 0px;
+		}
+		
+		footer form .input, footer form textarea {
+			width: 180px;
+		}
+		
+		
+		
+		
+		
+		
+		
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+    
