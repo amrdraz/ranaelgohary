@@ -30,7 +30,6 @@
     h1, h2, h3, h4, a {
     	font-family: Lato;
     	font-weight: 300;
-    	/*color: #2B0F43;*/
     	color: #231F20;
     }
     
@@ -40,34 +39,39 @@
     
     .container { 
     	
-    	position: relative; width: 870px; margin: 0 auto; padding: 0; font-family: normal 100% 'Lato', sans-serif; z-index: 1;
+    	position: relative; 
+		width: 870px; 
+		margin: 0 auto; 
+		padding: 0; 
+		font-family: 
+		normal 100% 'Lato', 
+		sans-serif; 
+		z-index: 1;
     	
     }
-    
    
     header {
     	width: 100%;
-    	height: 50px;
-    	padding: 14px 0 0px 0;
-/*
-    	background: #FFF;
-    	background-color:rgba(255,255,255,1);
-*/
+    	height: 54px;
+    	padding: 16px 0 0px 0;
     	position: fixed;
+		top: 0;
     	z-index: 5;
-    	border-bottom: solid 1px rgba(0,0,0,0.03);
+    	border-bottom: solid 1px #000;
+		background: #fff;
     }
     
-    header .one {
+    header .logo {
     	float: left;
-    	
-    	
+		width: 40px;
+		margin-top: -2px;
     }
     
     	header nav {
     		margin: 0px auto 0 auto;
-    		width: 13.5em;
-    		
+    		width: 27.2em;
+			
+/*			border: solid 1px;*/
     	}
     	
     	header nav ul {
@@ -84,19 +88,27 @@
 	    		}
 	    		
 	    			header nav li h3 {
-	    				font-size: 12px;
-	    				margin-right: 18px;
-	    				color: #000;
+	    				font-size: 13px;
+	    				margin-right: 60px;
+	    				color: #b5b5b5;
                         font-weight: 700;
-                        text-transform: uppercase;
+						letter-spacing: 0.14em;
+ 						text-transform: uppercase;
+						font-family: 'Lato', sans-serif;
 	    			}
 	    			
 	    			header nav li .last {
 	    				margin-right: 0;
 	    			}
 	    			
-	    			header nav h3:hover, nav li .active {
-	    				text-decoration: line-through;
+	    			header nav h3:hover {
+	    				color: #909090;
+	    			}
+
+					header nav li .active {
+	    				color: #333333;
+						font-weight: 900;
+						letter-spacing: 0.133em;
 	    			}
 	    			
 	    			
@@ -292,7 +304,7 @@
 	/* Projects */
 	
 	.project {
-		padding-top: 64px;
+		padding-top: 72px;
 	}
 	
 		.project #projectNav {
