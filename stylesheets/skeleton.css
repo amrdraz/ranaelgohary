@@ -115,9 +115,8 @@
 	    			
 	    header .fb-share-button  {
 	    	float: right;
-	    	width: 133px;
+	    	width: 80px;
 	    	margin-top: -67px;
-            
             display: none;
 	    }	
 
