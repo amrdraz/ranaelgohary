@@ -938,13 +938,11 @@
         
         
         .container { width: 410px;}
-    
-    
+
     	
-    	header .fb-share-button  {
-    		width: 75px;
-    	}
-    	
+		header .container {
+        	display: none;
+        }
     	
     	
     	.work, .project {
