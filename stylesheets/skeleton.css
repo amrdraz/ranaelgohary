@@ -21,6 +21,18 @@
 /* #Base 960 Grid
 ================================================== */
 
+	.displayNone {
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.4s;
+	}
+
+	.displayBlock {
+		opacity: 1;
+		visibility: visible;
+		transition: all 0.4s;
+	}
+
     .mainContainer {
     	width: 100%;
     	max-width: 100%;
@@ -127,7 +139,7 @@
 	    }	
 
 
-@media (min-width: 768px) {
+@media (min-width: 754px) {
 		
 		header .fb-share-button  {
 	    	display: block;
@@ -135,7 +147,75 @@
 }
 
         
+
+		#openBurgerMenu {
+			height: 20px;
+			float: right;
+			margin-top: 9px;
+		}
+
+		#closeBurgerMenu {
+			width: 22px;
+			float: right;
+			margin-top: 8px;
+			margin-right: -26px;
+			z-index: 95;
+		}
+
+		header .mobileMenuToggle:hover {
+			cursor: pointer;
+		}
+
+		
+		#mobileMenu {
+			height: 100%;
+			width: 100%;
+			background-color: #fff;
+			position: fixed;
+			top: 0;
+			z-index: 4;
+		}
+
+
+
+	#mobileMenu nav {
+		margin-top: 120px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+		#mobileMenu nav a {
+			text-decoration: none;
+			color: #fff;
+			font-size: 20px;
+		}
+
+		#mobileMenu nav a:hover {
+			color: #c6c6c6;
+		}
+
+		#mobileMenu nav li {
+			margin-bottom: 20px;
+		}
 	    
+
+/* Larger than mobile */
+@media (min-width: 754px) {
+	
+	
+	
+	header nav, #HeaderNavResponsive {
+		display: block;
+	}
+	
+	header #openBurgerMenu {
+		visibility: hidden;
+	}
+	
+	
+	
+	
+}
 	    
 	 		
 	    			
@@ -924,7 +1004,7 @@
         .container { width: 410px;}
 
     	
-		header .container {
+		header nav {
         	display: none;
         }
     	

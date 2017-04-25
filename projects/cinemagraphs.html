@@ -30,6 +30,9 @@
 	<link rel="stylesheet" href="../stylesheets/base.css">
 	<link rel="stylesheet" href="../stylesheets/skeleton.css">
 	<link rel="stylesheet" href="../stylesheets/layout.css">
+	
+	<script src="../js/jquery-2.1.4.min.js"></script>
+	<script src="../js/script.js"></script>
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -75,6 +78,10 @@
 	<header>
 	<div class="container">
 			<a href="../index.html"><img class="logo" src="../img/mainElements/Logo.png" /></a>
+		
+			<img id="openBurgerMenu" class="mobileMenuToggle" src="../img/mainElements/BurgerMenuOpen.svg" alt="open menu">
+			
+			<img id="closeBurgerMenu" class="mobileMenuToggle displayNone" src="../img/mainElements/BurgerMenuClose.svg" alt="close menu">
 			
 			<nav class="clearfix">
 				<ul class="clearfix">
@@ -88,6 +95,18 @@
 			
 	</div>
 	</header>
+	
+	<div id="mobileMenu" class="displayNone">
+			
+		<nav>
+			<ul>
+				<li><a href="work.html"><h3 class="active">Portfolio</h3></a></li>
+				<li><a href="about.html"><h3>My Story</h3></a></li>
+				<li><a href="#contact"><h3 class="last" >Let's Work</h3></a></li>
+			</ul>
+		</nav>
+		
+	</div>
 	
 	<div class="mainContainer">
 		<div class="container project cinemagraphs">
