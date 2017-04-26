@@ -387,11 +387,11 @@
 	}
 	
 		.project #projectNav {
-			padding: 20px 0;
-			height: 10px;
-			width: 260px;
+			padding: 26px 0;
+			height: 14px;
+			width: 100%;
 			overflow: hidden;
-			border-bottom: solid 1px rgba(0,0,0,0.1);
+			border-bottom: solid 1px rgba(0,0,0,0.6);
 			margin-bottom: 40px;
 		}
 		
@@ -405,7 +405,9 @@
 			
 			.project #projectNav #before, 
 			.project #projectNav #after {
-				opacity: 0.65;
+				opacity: 0.8;
+				width: 31px;
+				margin-top: -9px;
 			}
 			
 			.project #projectNav #before:hover, 
@@ -1010,7 +1012,7 @@
     	
     	
     	.work, .project {
-    		padding-top: 64px;
+    		padding-top: 72px;
     	}
     	
     	
