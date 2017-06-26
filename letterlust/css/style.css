@@ -4,6 +4,11 @@
       
     }
 
+	a {
+		color: #000;
+		text-decoration: none;
+	}
+
 	a:hover {
 		cursor: pointer;
 	}
@@ -211,12 +216,12 @@ nav ul {
 	font-size: 26px;
 	letter-spacing: 0.01em;
 	text-align: center;
-	font-weight: 700;
+	font-weight: 400;
 	margin-bottom: 12px;
 }
 
 .FeaturedProjects h3 {
-	font-size: 25px;
+	font-size: 16px;
 	letter-spacing: 0.03em;
 	text-align: center;
 	font-style: italic;
@@ -225,6 +230,16 @@ nav ul {
 	
 .MainViewProject {
 	margin-bottom: 50px;
+	
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.MainViewProject:hover {
+	opacity: 0.8;
 }
 
 
