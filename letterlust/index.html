@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en-gb">
+    
+    <head>
+        <title>Letterlust Studio</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+		
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+		
+		<!-- css -->
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<!-- js -->
+		<script src="js/classie.js"></script>
+		<script>
+			function init() {
+				window.addEventListener('scroll', function(e){
+					var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+						shrinkOn = 0,
+						header = document.querySelector("header");
+					if (distanceY > shrinkOn) {
+						classie.add(header,"smaller");
+					} else {
+						if (classie.has(header,"smaller")) {
+							classie.remove(header,"smaller");
+						}
+					}
+				});
+			}
+			window.onload = init();
+		</script>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="js/responsiveslides.min.js"></script>
+		
+		<link rel="icon" 
+			  type="image/png" 
+			  href="img/MainElements/favicon.png">
+		
+		
+		
+    </head>
+	
+	
+	<body>
+		
+		<div class="ColouredContainer">
+			
+			<div class="ControlledWidth">
+
+
+				<header>
+
+					<a href="index.html"><img class="HeaderLogo" src="img/svg/letterlust_logo.svg"/></a>
+
+					<nav>
+						<ul>
+							<a href="graphicdesign.html"><li>Graphic Design</li></a>
+							<a href="selectedprojects.html"><li>Lettering Art</li></a>
+							<a href="keystaff.html"><li>About</li></a>
+							<a href="contactus.html"><li>Contact</li></a>
+						</ul>
+					</nav>
+
+				</header>
+				
+				
+				<!--HomepageSlider-->
+		
+				<ul class="HomepageSlider rslides">
+					<li><a href="#"><img src="img/Projects/HomepageSlider/InReminscence.jpg" alt=""></a></li>
+					<li><a href="#"><img src="img/Projects/HomepageSlider/fleetstreet.jpg" alt=""></a></li>
+				</ul>
+
+
+				<div class="HomeAbout">
+
+					<h1>Letterlust is a <a href="graphicdesign.html">Graphic Design</a> 
+					<br>& <a href="#">Lettering Art</a> studio based between 
+					<br>Cairo and London.</h1>
+
+				</div>
+				
+			</div>
+		
+		
+		</div>
+		
+		<footer>
+			
+			<div class="ControlledWidth">
+			
+				<a href="mailto:contact@ranaelgohary.com">sayhello@letterlust.studio</a>
+				
+				<div class="SocialMedia">
+					
+					<a href="https://www.facebook.com/letter.lust" target="_blank"><div class="SocialMediaCircle">
+						
+						<img class="FacebookFooterIcon" src="img/svg/facebook-logo.svg">
+					
+					</div></a>
+					
+					<a href="https://www.instagram.com/letter.lust/" target="_blank"><div class="SocialMediaCircle">
+						
+						<img class="InstagramFooterIcon" src="img/svg/instagram-logo.svg">
+					
+					</div></a>
+					
+				</div>
+			
+			</div>
+		
+		</footer>
+		
+		
+		<script>
+				$(function() {
+					$(".rslides").responsiveSlides();
+				});
+		</script>
+		
+	</body>
+	
+	
+	
+</html>
