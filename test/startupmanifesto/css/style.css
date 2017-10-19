@@ -754,7 +754,6 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 1
 		#supporters #individuals .individualsupporter, #supporters #organisations .organisationlogo {
 			width: 20%;
 			float: left;
-			
 			transition: all 0.4s;
 		}
 
@@ -763,7 +762,7 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 1
 		}
 
 		#supporters #organisations .organisationlogo:hover {
-			transform: scale(1.1)
+			transform: scale(1.1);
 		}
 
 			#supporters #individuals .individualsupporter a {
@@ -822,14 +821,14 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 1
 			#contact form #email {
 				
 				background: #FFFFFF;
-				border: solid 1px #0077B5;
+				border: solid 1px #dbd735;
 
 				font-family: 'proxima_nova_regular', sans-serif;
 
 				font-size: 14px;
 				text-transform: uppercase;
 
-				color: #000;
+				color: #0077B5;
 
 				padding: 20px;
 
@@ -853,22 +852,23 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 1
 				width: 300px;
 				height: 60px;
 				
-				border: solid 1px #0077B5;
-				
 				font-family: 'proxima_nova_regular', sans-serif;
-
 				font-size: 14px;
 				text-transform: uppercase;
 				
-				background: #0077B5;
+				background: #dbd735;
 				color: #fff;
+				border: solid 1px #dbd735;
 				
 				float: left;
+				
+				transition: all 0.2s;
 			}
 
 				#contact form #signup:hover {
-					background: #2D9CDB;
-					border: solid 1px #2D9CDB;
+					background: #0077B5;
+					border: solid 1px #0077B5;
+					cursor: pointer;
 				}
 
 
@@ -906,11 +906,14 @@ footer a {
 			footer .credits .letterlust {
 				float: left;
 				padding-top: 15px;
+				transition: all 0.2s;
+				
 			}
 
 			footer .credits .bit68 {
 				float: right;
 				padding-top: 26px;
+				transition: all 0.2s;
 			}
 
 			footer .letterlust:hover ,footer .bit68:hover {
