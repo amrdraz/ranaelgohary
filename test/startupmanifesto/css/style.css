@@ -1,49 +1,3 @@
-/*Fonts*/
-
-
-@font-face {
-    font-family: 'proxima_nova_thin';
-    src: url('../fonts/mark_simonson_-_proxima_nova_thin-webfont.woff2') format('woff2'),
-         url('../fonts/mark_simonson_-_proxima_nova_thin-webfont.woff') format('woff'),
-         url('../fonts/mark_simonson_-_proxima_nova_thin-webfont.ttf') format('truetype'),
-         url('../fonts/mark_simonson_-_proxima_nova_thin-webfont.svg#proxima_nova_ththin') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'proxima_nova_regular';
-    src: url('../fonts/proximanova-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'proxima_nova_semibold';
-    src: url('../fonts/mark_simonson_-_proxima_nova_semibold-webfont.woff2') format('woff2'),
-         url('../fonts/mark_simonson_-_proxima_nova_semibold-webfont.woff') format('woff'),
-         url('../fonts/mark_simonson_-_proxima_nova_semibold-webfont.ttf') format('truetype'),
-         url('../fonts/mark_simonson_-_proxima_nova_semibold-webfont.svg#proxima_nova_ltsemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'proxima_nova_bold';
-    src: url('../fonts/mark_simonson_-_proxima_nova_bold-webfont.woff2') format('woff2'),
-         url('../fonts/mark_simonson_-_proxima_nova_bold-webfont.woff') format('woff'),
-         url('../fonts/mark_simonson_-_proxima_nova_bold-webfont.ttf') format('truetype'),
-         url('../fonts/mark_simonson_-_proxima_nova_bold-webfont.svg#proxima_novabold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
 body {
 	font-family: 'proxima_nova_bold', sans-serif;
 }
@@ -65,19 +19,19 @@ a {
 
 
 .blueitalicheadline {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 900;
 	color: #0077B5;
 }
 
 .whiteitalicheadline {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 900;
 	color: #fff;
 }
 
 .italicheadline {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 900;
 	
 }
@@ -162,10 +116,11 @@ nav {
 		color: #000;
 		text-decoration: none;
 		text-transform: uppercase;
-		font-size: 14px;
-		letter-spacing: 0.06em;
+		font-size: 12px;
+		letter-spacing: 0.04em;
 		
-		font-family: 'proxima_nova_semibold', sans-serif;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 300;
 		
 		-webkit-transition: all 0.1s;
 		-moz-transition: all 0.1s;
@@ -213,7 +168,8 @@ nav {
 
 		#mobileMenu ul a {
 			text-decoration: none;
-			font-family: 'proxima_nova_semibold', sans-serif;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 500;
 			text-transform: uppercase;
 			font-size: 16px;
 			letter-spacing: 0.08em;
@@ -261,16 +217,17 @@ nav {
 }
 
 	.intro h1 {
-		font-family: 'Playfair Display', serif;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 900;
 		color: #fff;
-		font-weight: 700;
 		text-align: center;
 		font-size: 110px;
 		padding-top: 130px;
 	}
 
 	.intro h2 {
-		font-family: 'proxima_nova_regular', sans-serif;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 300;
 		color: #fff;
 		text-align: center;
 		font-size: 41px;
@@ -280,20 +237,8 @@ nav {
 		opacity: 0.9;
 	}
 
-.intro .scroll {
-	width: 90px;
-	display: block;
-	margin: 100px auto 0 auto;
-}
-
-.intro h3 {
-	color: #fff;
-	text-align: center;
-	font-family: 'proxima_nova_semibold', sans-serif;
-	font-size: 14px;
-	text-transform: uppercase;
-	margin-top: 20px;
-	margin-bottom: 25px;
+.intro > img {
+	margin: 250px auto 0 auto;
 }
 
 
@@ -324,7 +269,8 @@ nav {
 	}
 
 	#about p {
-		font-family: 'proxima_nova_regular', sans-serif;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
 		font-size: 30px;
 		line-height: 44px;
 		width: 880px;
@@ -341,7 +287,8 @@ nav {
 	}
 
 		#about p b {
-			font-family: 'proxima_nova_bold', sans-serif;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 900;
 		}
 
 		#about p img {
@@ -383,7 +330,8 @@ nav {
 		}
 
 		#about .textbox h5, #about .textbox h6 {
-			font-family: 'proxima_nova_regular', sans-serif;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 900;	
 			font-size: 37px;
 			letter-spacing: 0.044em;
 			margin-top: 20px;
@@ -393,111 +341,6 @@ nav {
 			letter-spacing: 0.035em;
 			margin-top: 8px;
 		}
-
-
-
-
-/*Discussion*/
-
-	#discussion {
-		background: #EEEDEB;
-	}
-
-	.creativity {
-		padding: 25px 25px 0 25px;
-		
-		background: rgba(255,255,255,1);
-		background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(238,237,235,1) 100%);
-		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(238,237,235,1)));
-		background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(238,237,235,1) 100%);
-		background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(238,237,235,1) 100%);
-		background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(238,237,235,1) 100%);
-		background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(238,237,235,1) 100%);
-	}
-
-		.creativity img {
-			width: 100%;
-			position: relative;
-			z-index: 0;
-	}
-
-	#discussion .whitebox {
-		width: 1100px;
-		overflow: hidden;
-		display: block;
-		margin: -60px auto 0 auto;
-		position: relative;
-		z-index: 200;
-		
-		background: #fff;
-		
-		-webkit-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.25);
-		-moz-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.25);
-		box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.25);
-	}
-
-		#discussion .left, #discussion .right {
-			float: left;
-			width: 40%;
-		}
-
-		#discussion .left {
-			padding: 5%;
-		}
-
-		#discussion .right {
-			padding: 7% 10% 5% 0;
-		}
-
-			#discussion .left img {
-				width: 100%;
-			}
-
-			#discussion .right h7 {
-				font-size: 36px;
-				line-height: 44px;
-			}
-
-			#discussion .right p {
-				margin-top: 20px;
-				
-				font-family: 'proxima_nova_regular', sans-serif;
-				font-size: 18px;
-				line-height: 31px;
-				color: #828282;
-			}
-
-				#discussion .right p b {
-					font-weight: 700;
-				}
-
-
-		.yourinput {
-			padding: 100px 0;
-			overflow: hidden;
-		}
-		
-			.yourinput h8, .yourinput h9 {
-				float: left;
-				width: 45%;
-			}
-			.yourinput h8 {
-				padding-right: 4.5%;
-				padding-bottom: 7px;
-				text-align: right;
-				
-				font-size: 70px;
-				line-height: 82px;
-				border-right: solid #000 2px;
-			}
-
-			.yourinput h9 {
-				padding-left: 4.5%;
-				padding-top: 107px;
-				font-size: 50px;
-				line-height: 61px;
-				font-weight: 400;
-			}
 
 
 
@@ -540,7 +383,7 @@ nav {
 
 		#support h10 {
 			font-size: 20px;
-			font-weight: 700;
+			font-weight: 900;
 			letter-spacing: 0.03em;
 		}
 
@@ -550,21 +393,23 @@ nav {
 
 		#support h12 {
 			font-size: 40px;
-			font-weight: 700;
+			font-weight: 900;
 			letter-spacing: 0.03em;
 			margin-bottom: 20px;
 		}
 
 		#support p {
-			font-family: 'proxima_nova_thin', sans-serif;
-			font-size: 24px;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 300;
+			font-size: 18px;
 			letter-spacing: 0.01em;
 			line-height: 33px;
 			padding: 5px 0;
 		}
 
 		#support h13 {
-			font-family: 'proxima_nova_semibold', sans-serif;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 500;
 			text-transform: uppercase;
 			font-size: 16px;
 			letter-spacing: 0.08em;
@@ -593,7 +438,7 @@ nav {
 			
 			overflow: hidden;
 			
-			font-family: 'proxima_nova_bold', sans-serif;
+			
 		}
 
 
@@ -611,11 +456,22 @@ nav {
 				margin-top: 40px;
 				margin-bottom: 20px;
 			}
+				
 
 			#timeline .dates {
 				margin-top: 30px;
 				margin-bottom: 15px;
 			}
+
+				#timeline .events h2 {
+					font-family: 'Montserrat', sans-serif;
+					font-weight: 900;
+				}
+
+				#timeline .dates h2 {
+					font-family: 'Montserrat', sans-serif;
+					font-weight: 300;
+				}
 
 
 				#timeline .events .twolines {
@@ -677,7 +533,7 @@ background: -ms-linear-gradient(top, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 100
 background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 100%);
 }
 
-	#news h14 {
+	#news h1 {
 		display: block;
 		text-align: center;
 		font-size: 50px;
@@ -696,7 +552,6 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 1
 		width: 300px;
 		float: left;
 		margin: 0 5px;
-		padding: 22px;
 		background: #fff;
 	}
 
@@ -704,39 +559,55 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 1
 		width: 100%;
 	}
 
-	.featurednews h1 {
-		margin-top: 18px;
-		color: #000;
-		font-size: 20px;
-		text-transform: uppercase;
-		text-align: left;
+	.featurednews .text {
+		padding: 22px;
+		text-align: center;
 	}
 
 	.featurednews h2 {
-		margin-top: 8px;
-		color: #828282;
-		font-family: 'proxima_nova_thin', sans-serif;
-		font-size: 16px;
-		line-height: 22px;
-		text-align: left;
+		color: #000;
+		font-size: 20px;
+		text-transform: uppercase;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 900;
 	}
 
 	.featurednews h3 {
+		margin-top: 12px;
+		color: #828282;
+		color: #B0AF51;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 18px;
+		letter-spacing: 0.02em;
+		text-transform: uppercase;
+	}
+
+	.featurednews h4 {
+		
 		background: #B0AF51;
 		color: #fff;
 		text-align: center;
 		font-size: 12px;
 		letter-spacing: 0.04em;
 		text-transform: uppercase;
-		font-family: 'proxima_nova_regular', sans-serif;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
 		padding: 15px 0;
 		margin-top: 15px;
+		border: solid 1px #B0AF51;
 	}
+
+		.featurednews h4:hover {
+			background: #fff;
+			color: #B0AF51;
+		}
 
 /*Supporters*/
 
 #supporters {
-	padding-top: 35px;
+	padding-top: 60px;
 }
 
 	#supporters h1 {
@@ -774,22 +645,24 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 1
 			}
 
 			#supporters #individuals .individualsupporter .text {
-				margin-top: -90px;
+				margin-top: -86px;
 				margin-left: 20px;
 				margin-bottom: 20px;
 			}
 
 			#supporters #individuals .individualsupporter .text h2 {
-				font-family: 'Playfair Display', serif;
+				font-family: 'Montserrat', sans-serif;
 				font-weight: 900;
-				font-size: 20px;
-				line-height: 24px;
+				font-size: 18px;
+				line-height: 22px;
 				margin-bottom: 6px;
 				
 			}
 
 			#supporters #individuals .individualsupporter .text h3 {
-				font-family: 'proxima_nova_thin', sans-serif;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: 300;
+				font-size: 14px;
 			}
 
 
@@ -801,7 +674,6 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 1
 #contact {
 	background: #F2F2F2;
 	padding: 60px 0;
-	border-top: solid 1px #0077B5;
 }
 
 		#contact h1 {
@@ -821,9 +693,10 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 1
 			#contact form #email {
 				
 				background: #FFFFFF;
-				border: solid 1px #dbd735;
+				border: solid 1px #B0AF51;
 
-				font-family: 'proxima_nova_regular', sans-serif;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: 300;
 
 				font-size: 14px;
 				text-transform: uppercase;
@@ -852,30 +725,26 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 1
 				width: 300px;
 				height: 60px;
 				
-				font-family: 'proxima_nova_regular', sans-serif;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: 500;
 				font-size: 14px;
 				text-transform: uppercase;
 				
-				background: #dbd735;
+				background: #B0AF51;
 				color: #fff;
-				border: solid 1px #dbd735;
+				border: solid 1px #B0AF51;
 				
 				float: left;
 				
 				transition: all 0.2s;
 			}
 
-				#contact form #signup:hover {
-					background: #0077B5;
-					border: solid 1px #0077B5;
-					cursor: pointer;
-				}
-
 
 /*Footer*/
 
 footer {
-	font-family: 'proxima_nova_regular', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
 }
 
 footer > div {
@@ -1011,17 +880,6 @@ footer a {
 			font-size: 24px;
 		}
 		
-		.yourinput h8 {
-			font-size: 40px;
-			line-height: 50px;
-		}
-
-		.yourinput h9 {
-			font-size: 28px;
-			line-height: 37px;
-			padding-top: 65px;
-		}
-		
 		
 		
 		#support #waystosupport {
@@ -1034,7 +892,7 @@ footer a {
 		}
 		
 		#support p {
-			font-size: 17px;
+			font-size: 16px;
 			line-height: 26px;
 			padding: 0;
 		}
@@ -1045,16 +903,16 @@ footer a {
 		}
 		
 		.featurednewscontainer {
-			width: 1002px;
+			width: 820px;
 		}
 
 		.featurednews {
-			width: 260px;
+			width: 380px;
 			margin: 0 15px;
 		}
 		
 		footer .credits > div {
-			width: 665px;
+			width: 696px;
 		}
 
 		footer p {
@@ -1108,27 +966,6 @@ footer a {
 	@media (max-width: 800px) {
 		
 		
-		.creativity {
-    		padding: 25px;
-		}
 		
-		#discussion .whitebox {
-			width: 100%;
-			margin: 0 auto;
-		}
-
-		#discussion .left, #discussion .right {
-			float: none;
-			width: 90%;
-		}
-
-		#discussion .left {
-			display: none;
-		}
-		
-		#discussion .right {
-			padding: 5%;
-			text-align: center;
-		}
 		
 	}
