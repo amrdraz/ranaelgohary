@@ -36,8 +36,8 @@
 <!--	Header-->
 		
 		<nav>
-			<img src="img/mainElements/startupmanifestologo.png">
-			<img src="img/mainElements/poweredbyriseup.png">
+			<img id="manifestologo" src="img/mainElements/TheStartupManifestoLogo.png">
+			<img id="poweredbyriseup" src="img/mainElements/poweredbyriseup.png">
 			
 			<img id="openBurgerMenu" class="mobileMenuToggle" src="img/mainElements/BurgerMenuOpen.svg" alt="open menu">
 			<img id="closeBurgerMenu" class="mobileMenuToggle displayNone" src="img/mainElements/BurgerMenuClose.svg" alt="close menu">
@@ -49,7 +49,7 @@
 					<a href="#support" data-scroll-nav="3"><li>Support</li></a>
 					<a href="#timeline" data-scroll-nav="4"><li>Timeline</li></a>
 					<a href="#news" data-scroll-nav="5"><li>News</li></a>
-					<a href="#contact" data-scroll-nav="7"><li>Sign Up</li></a>
+					<a href="#contact" data-scroll-nav="7"><li id="signup">Sign Up</li></a>
 				</ul>
 			</div>
 			
@@ -74,12 +74,14 @@
 		
 <!--	Intro-->
 		
-		<div class="intro" data-scroll-nav="1">
+		<div class="intro">
 			<h1 class="type-it">The Startup Manifesto</h1>
 			<h2 class="fadein" style="display:none;">Our Action Plan for Entrepreneurship in Egypt</h2>
 			
-			<img class="arrow fadeinsecond" style="display:none" src="img/mainElements/whitearrow.svg" data-scroll-nav="1">
-
+			<div class="fadeinsecond" style="display:none">
+				<h3>Scroll</h3>
+				<img class="arrow" src="img/mainElements/whitearrow.svg" data-scroll-nav="1">
+			</div>
 			
 		</div>
 		
@@ -89,12 +91,35 @@
 		
 <!--	About-->
 		
-		<div id="about" data-scroll-index="1">
-			<h1 class="blueitalicheadline reveal">An Action-Plan<br>by The Ecosystem for The Ecosystem</h1>
-			<img class="document" src="img/mainElements/document.svg">
+		<div class="about" data-scroll-nav="2">
+			<div class="theWayForwards">
+				<h1>COCREATE WITH US THE WAY</h1>
+				<h2>FORWARDS</h2>
+				
+				<p>The Startup Manifesto aims to shape the Egyptian entrepreneurship ecosystem by providing an overview of challenges and by suggesting actionable solutions for everybody to work on. Let us develop it as an ecosystem - for the ecosystem.</p>
+			</div>
+			
+			<div class="subtext">
+				
+				<div class="subtextinnercontainer left">
+					<h1>Tired<br>of all the<br>talking?</h1>
+					<p>The Startup Manifesto is about action. It is the foundation of an ongoing and sustainable reform movement. This is the platform to push entrepreneurship in Egypt to the next level.</p>
+				</div>
+				
+				<div class="subtextinnercontainer">
+					<h1>We need your<br>support to make<br>this happen.</h1>
+					<p>We need everybody on-board to develop a Startup Manifesto that can really make an impact. This is a call to all entrepreneurship key players to come together and truly collaborate - this includes startups, investors, government, support organizations, corporates and academia.</p>
+				</div>
+			
+			</div>
+			
 		</div>
 		
 <!--	About Closing-->
+		
+		
+		
+
 		
 		
 		
@@ -261,12 +286,12 @@
 				<div class="line"></div>
 				
 				<div class="text dates">
-					<h2>AUGUST -<br>OCTOBER 2017</h2>
+					<h2>October 2017 -<br>January 2018</h2>
 					<h2>October -<br>December 2017</h2>
-					<h2>November 2017 -<br>January 2018</h2>
-					<h2 class="oneline">February 2018</h2>
+					<h2>January 2018 -<br>February 2018</h2>
 					<h2 class="oneline">March 2018</h2>
 					<h2 class="oneline">April 2018</h2>
+					<h2 class="oneline">May 2018</h2>
 				</div>
 				
 			</div>
@@ -333,8 +358,8 @@
 			
 			<div class="credits">
 				<div>
-					<div class="letterlust"><p><a href="http://letterlust.studio/" target="_blank">DESIGN & FRONT-END DEVELOPMENT<img src="img/footer/letterlust_logo_white.svg"></a></p></div>
-					<div class="bit68"><p><a href="http://bit68.com/" target="_blank">BACK-END DEVELOPMENT<img src="img/footer/bit68_white.png"></a></p></div>
+					<div class="letterlust"><p>DESIGN & FRONT-END DEVELOPMENT<a href="http://letterlust.studio/" target="_blank"><img src="img/footer/letterlust_logo_white.svg"></a></p></div>
+					<div class="bit68"><p>BACK-END DEVELOPMENT<a href="http://bit68.com/" target="_blank"><img src="img/footer/bit68_white.png"></a></p></div>
 				</div>
 			</div>
 			<div class="rights"><p>© 2017 RiseUp LLC. All rights reserved.       |     <a href="mailto:startupmanifesto@riseup.co">E-mail: startupmanifesto@riseup.co</a></p></div>

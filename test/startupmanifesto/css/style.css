@@ -1,5 +1,5 @@
 body {
-	font-family: 'proxima_nova_bold', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -84,19 +84,24 @@ a {
 
 nav {
 	height: 67px;
-	background-color: #fff;
-	position: fixed;
-	top: 0;
+	position: absolute;
+	top: 14px;
 	width: 100%;
 	z-index: 600;
 	
-	-webkit-box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.25);
-	-moz-box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.25);
-	box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.25);
 }
 
-	nav img {
-		height: 100%;
+	
+
+	nav #manifestologo {
+		height: 40px;
+		margin-left: 60px;
+		margin-bottom: 3px;
+	}
+
+	nav #poweredbyriseup {
+		height: 50px;
+		margin-top: 15px;
 	}
 
 	#navlist {
@@ -109,18 +114,23 @@ nav {
 
 	#navlist li {
 		display: inline;
-		margin-right: 16px;
+		margin-right: 44px;
+	}
+
+	#navlist #signup {
+		border: solid 1px;
+		padding: 8px 26px;
 	}
 
 	#navlist a {
-		color: #000;
+		color: #fff;
 		text-decoration: none;
 		text-transform: uppercase;
 		font-size: 12px;
 		letter-spacing: 0.04em;
 		
 		font-family: 'Montserrat', sans-serif;
-		font-weight: 300;
+		font-weight: 500;
 		
 		-webkit-transition: all 0.1s;
 		-moz-transition: all 0.1s;
@@ -203,145 +213,153 @@ nav {
 
 
 .intro {
-	margin: 92px 25px 25px 25px;
 	height: 600px;
 	overflow: hidden;
 	
-	background-image: url('../img/intro/bg3.jpg');
+	position: relative;
+	
+	z-index: 10;
+	
+	background-image: url('../img/intro/Intro_BG.png');
 	background-repeat:no-repeat;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
 	background-position:center;
+	
+	
+	color: #fff;
+	text-align: center;
 }
 
 	.intro h1 {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 900;
-		color: #fff;
-		text-align: center;
 		font-size: 110px;
-		padding-top: 130px;
+		padding-top: 150px;
 	}
 
 	.intro h2 {
-		font-family: 'Montserrat', sans-serif;
+		text-transform: uppercase;
 		font-weight: 300;
-		color: #fff;
-		text-align: center;
 		font-size: 41px;
 		line-height: 33px;
 		letter-spacing: 0.045em;
-		padding-top: 20px;
+		padding-top: 13px;
 		opacity: 0.9;
 	}
 
+	.intro .fadeinsecond {
+		margin-top: 220px;
+	}
+
+	.intro h3 {
+		font-weight: 300;
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+
 .intro > img {
-	margin: 250px auto 0 auto;
+	margin: 0 auto;
 }
-
-
 
 
 
 /*About*/
 
-
-#about {
-	background: #daf2ff;
-	padding-top: 70px;
-	padding-bottom: 50px;
-	
-	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(227,245,255,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(227,245,255,1)));
-	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(227,245,255,1) 100%);
-	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(227,245,255,1) 100%);
-	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(227,245,255,1) 100%);
-	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(227,245,255,1) 100%);
- 
-}
-
-	#about h1 {
-		text-align: center;
-		font-size: 80px;
-		line-height: 94px;
-	}
-
-	#about p {
-		font-family: 'Montserrat', sans-serif;
-		font-weight: 500;
-		font-size: 30px;
-		line-height: 44px;
-		width: 880px;
-		display: block;
-		margin: 0 auto 20px auto;
-		color: #0077B5;
-		text-align: justify;
-	}
-
-	#about .document {
-		width: 1000px;
-		display: block;
-		margin: 40px auto;
-	}
-
-		#about p b {
-			font-family: 'Montserrat', sans-serif;
-			font-weight: 900;
-		}
-
-		#about p img {
-			width: 108px;
-/*			margin-top: -25px;*/
-			padding: 0 39px;
-		}
-
-		#about p .left {
-			float: left;
-		}
-
-		#about p .right {
-			float: right;
-		}
-
-
-	#about .textbox {
-		width: 800px;
-		padding: 40px;
-		display: block;
-		margin: 50px auto 50px auto;
-		color: #fff;
-		color: #0077B5;
+	.about {
+		z-index: 0;
 		
+		position: relative;
+		
+		height: 1330px;
+		
+		background-image: url('../img/about/about_BG.jpg');
+		background-repeat:no-repeat;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+		background-position:center;
+		
+		margin-top: -130px;
 	}
 
-		#about .textbox h3, #about .textbox h4 {
-			font-family: 'Playfair Display', serif;
-			font-weight: 700;
-			text-align: left;
-			font-size: 52px;
-			letter-spacing: 0.045em;
+		.about .theWayForwards {
+			padding-top: 240px;
+			
+			width: 700px;
+			margin: 0 auto;
+			
+			color: #1178B2;
+			text-align: center;
 		}
 
-		#about .textbox h4 {
-			letter-spacing: 0.015em;
-			margin-top: 8px;
+		.about h1 {
+			font-size: 26px;
+			font-weight: 300;
 		}
 
-		#about .textbox h5, #about .textbox h6 {
-			font-family: 'Montserrat', sans-serif;
-			font-weight: 900;	
-			font-size: 37px;
-			letter-spacing: 0.044em;
+		.about h2 {
+			font-size: 80px;
+			font-weight: 800;
+			margin-top: -8px;
+		}
+
+		.about p {
+			font-size: 20px;
+			line-height: 30px;
+			font-weight: 500;
 			margin-top: 20px;
 		}
 
-		#about .textbox h6 {
-			letter-spacing: 0.035em;
-			margin-top: 8px;
+
+
+
+
+		.about .subtext {
+			padding-top: 120px;
+			
+			width: 800px;
+			margin: 0 auto;
 		}
 
+			.about .subtextinnercontainer {
+				width: 50%;
+				float: left;
+				
+				
+			}
+
+				.about .subtextinnercontainer h1 {
+					font-size: 33px;
+					line-height: 37px;
+					font-weight: 900;
+					text-transform: uppercase;
+					color: #fff;
+					
+					-webkit-text-shadow: 1px 1px 2px rgba(217, 209, 0, 0.22);
+						-moz-text-shadow: 1px 1px 2px rgba(0,0,0,0.22);
+						text-shadow: 1px 1px 2px rgba(0,0,0,0.22);
+				}
+
+					.about .subtextinnercontainer p {
+						font-size: 16px;
+						line-height: 22px;
+						font-weight: 500;
+						color: #fff;
+						
+						-webkit-text-shadow: 1px 1px 2px rgba(0,0,0,0.15);
+						-moz-text-shadow: 1px 1px 2px rgba(0,0,0,0.15);
+						text-shadow: 1px 1px 2px rgba(0,0,0,0.15);
+						
+						
+					}
+
+					.about .subtext .left p {
+						width: 276px;	
+					}
 
 
 /*Support*/
@@ -377,7 +395,7 @@ nav {
 	}
 
 		#support hr {
-			border-bottom: solid 1px #B0AF51;
+			border-bottom: solid 1px #fcdf00;
 			margin: 15px 0;
 		}
 
@@ -413,7 +431,7 @@ nav {
 			text-transform: uppercase;
 			font-size: 16px;
 			letter-spacing: 0.08em;
-			color: #B0AF51;
+			color: #fcdf00;
 		}
 
 /*Timeline*/
@@ -500,9 +518,9 @@ nav {
 		}
 
 		#timeline .circle {
-			height: 7px;
-			width: 7px;
-			background: #B0AF51;
+			height: 11px;
+			width: 11px;
+			background: #fcdf00;
 
 			-webkit-border-radius: 20px; 
 			-moz-border-radius: 20px; 
@@ -511,11 +529,11 @@ nav {
 
 		#timeline .line {
 			width: 920px;
-			background: #B0AF51;
-			height: 1px;
+			background: #fcdf00;
+			height: 3px;
 
 			margin-left: 90px;
-			margin-top: -4px;
+			margin-top: -7px;
 		}
 
 /*News*/
@@ -523,7 +541,7 @@ nav {
 #news {
 	background: #0077B5;
 	padding: 80px 0;
-	margin: 25px;
+/*	margin: 25px;*/
 	
 	background: -moz-linear-gradient(top, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,167,201,1)), color-stop(100%, rgba(0,113,175,1)));
@@ -570,14 +588,14 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 1
 		text-transform: uppercase;
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 900;
+		letter-spacing: 0.02em;
 	}
 
 	.featurednews h3 {
 		margin-top: 12px;
-		color: #828282;
-		color: #B0AF51;
+		color: #aaaaaa;
 		font-family: 'Montserrat', sans-serif;
-		font-weight: 500;
+		font-weight: 300;
 		font-size: 14px;
 		line-height: 18px;
 		letter-spacing: 0.02em;
@@ -586,22 +604,22 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 1
 
 	.featurednews h4 {
 		
-		background: #B0AF51;
+		background: #fcdf00;
 		color: #fff;
 		text-align: center;
-		font-size: 12px;
+		font-size: 13px;
 		letter-spacing: 0.04em;
 		text-transform: uppercase;
 		font-family: 'Montserrat', sans-serif;
-		font-weight: 500;
+		font-weight: 900;
 		padding: 15px 0;
 		margin-top: 15px;
-		border: solid 1px #B0AF51;
+		border: solid 1px #fcdf00;
 	}
 
 		.featurednews h4:hover {
 			background: #fff;
-			color: #B0AF51;
+			color: #fcdf00;
 		}
 
 /*Supporters*/
@@ -693,7 +711,7 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 1
 			#contact form #email {
 				
 				background: #FFFFFF;
-				border: solid 1px #B0AF51;
+				border: solid 1px #fcdf00;
 
 				font-family: 'Montserrat', sans-serif;
 				font-weight: 300;
@@ -726,13 +744,14 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 1
 				height: 60px;
 				
 				font-family: 'Montserrat', sans-serif;
-				font-weight: 500;
+				font-weight: 900;
+				letter-spacing: 0.04em;
 				font-size: 14px;
 				text-transform: uppercase;
 				
-				background: #B0AF51;
+				background: #fcdf00;
 				color: #fff;
-				border: solid 1px #B0AF51;
+				border: solid 1px #fcdf00;
 				
 				float: left;
 				
@@ -785,7 +804,7 @@ footer a {
 				transition: all 0.2s;
 			}
 
-			footer .letterlust:hover ,footer .bit68:hover {
+			footer .letterlust a:hover ,footer .bit68 a:hover {
 				opacity: 0.7;
 			}
 	
@@ -842,42 +861,12 @@ footer a {
 	@media (max-width: 1500px) {
 
 		.intro h1 {
-			font-size: 77px;
+			font-size: 60px;
 		}
 
 		.intro h2 {
-			font-size: 19px;
+			font-size: 24.2px;
 			letter-spacing: 0.02em;
-		}
-
-		
-		#about h1 {
-			font-size: 54px;
-			line-height: 66px;
-		}
-
-		#about p {
-			font-size: 20px;
-			line-height: 29px;
-			width: 1000px;
-			padding: 50px;
-		}
-		
-		#about .textbox {
-			width: 540px;
-		}
-
-		#about .textbox h3, #about .textbox h4 {
-			font-size: 34px;
-			letter-spacing: 2px;
-		}
-
-		#about .textbox h4 {
-			letter-spacing: 1px;
-		}
-
-		#about .textbox h5, #about .textbox h6 {
-			font-size: 24px;
 		}
 		
 		
@@ -940,11 +929,6 @@ footer a {
 	/*	Less than 1100 - IPAD LANDSCAPE */  
 
 	@media (max-width: 1100px) {
-		
-		#about h1 {
-			font-size: 50px;
-			line-height: 62px;
-		}
 		
 		#timelinecontainer {
 			width: 1040px;
