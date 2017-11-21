@@ -140,7 +140,7 @@ nav {
 	}
 
 	#navlist a:hover, #navlist .active {
-		color: #4E9CC5;
+		color: #fcdf00;
 	}
 
 
@@ -289,7 +289,7 @@ nav {
 		.about .theWayForwards {
 			padding-top: 240px;
 			
-			width: 700px;
+			width: 740px;
 			margin: 0 auto;
 			
 			color: #1178B2;
@@ -302,7 +302,7 @@ nav {
 		}
 
 		.about h2 {
-			font-size: 80px;
+			font-size: 86px;
 			font-weight: 800;
 			margin-top: -8px;
 		}
@@ -365,7 +365,7 @@ nav {
 /*Support*/
 
 #support {
-	background-image: url('../img/support/bluepyramids.png');
+	background-image: url('../img/support/bluepyramids_2.jpg');
 	background-repeat:no-repeat;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -395,7 +395,7 @@ nav {
 	}
 
 		#support hr {
-			border-bottom: solid 1px #fcdf00;
+			border-bottom: solid 1px #fff;
 			margin: 15px 0;
 		}
 
@@ -417,7 +417,6 @@ nav {
 		}
 
 		#support p {
-			font-family: 'Montserrat', sans-serif;
 			font-weight: 300;
 			font-size: 18px;
 			letter-spacing: 0.01em;
@@ -426,12 +425,11 @@ nav {
 		}
 
 		#support h13 {
-			font-family: 'Montserrat', sans-serif;
 			font-weight: 500;
 			text-transform: uppercase;
 			font-size: 16px;
 			letter-spacing: 0.08em;
-			color: #fcdf00;
+			color: #fff;
 		}
 
 /*Timeline*/
@@ -520,7 +518,8 @@ nav {
 		#timeline .circle {
 			height: 11px;
 			width: 11px;
-			background: #fcdf00;
+			background: #fff;
+			border: solid 3px #fcdf00;
 
 			-webkit-border-radius: 20px; 
 			-moz-border-radius: 20px; 
@@ -533,7 +532,7 @@ nav {
 			height: 3px;
 
 			margin-left: 90px;
-			margin-top: -7px;
+			margin-top: -10px;
 		}
 
 /*News*/
@@ -543,12 +542,12 @@ nav {
 	padding: 80px 0;
 /*	margin: 25px;*/
 	
-	background: -moz-linear-gradient(top, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,167,201,1)), color-stop(100%, rgba(0,113,175,1)));
-background: -webkit-linear-gradient(top, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 100%);
-background: -o-linear-gradient(top, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 100%);
-background: -ms-linear-gradient(top, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 100%);
-background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 100%);
+	background: -moz-linear-gradient(top, rgba(0,167,201,1) 30%, #da4d07 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(30%, rgba(0,167,201,1)), color-stop(100%, #da4d07));
+background: -webkit-linear-gradient(top, rgba(0,167,201,1) 30%, #da4d07 100%);
+background: -o-linear-gradient(top, rgba(0,167,201,1) 30%, #da4d07 100%);
+background: -ms-linear-gradient(top, rgba(0,167,201,1) 30%, #da4d07 100%);
+background: linear-gradient(to bottom, rgba(0,167,201,1) 30%, #da4d07 100%);
 }
 
 	#news h1 {
@@ -568,8 +567,14 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 0%, rgba(0,113,175,1) 1
 
 	.featurednews {
 		width: 300px;
+		margin: 0 auto;
+		
+/*
 		float: left;
 		margin: 0 5px;
+*/
+		
+		
 		background: #fff;
 	}
 
@@ -865,7 +870,7 @@ footer a {
 		}
 
 		.intro h2 {
-			font-size: 24.2px;
+			font-size: 23.3px;
 			letter-spacing: 0.02em;
 		}
 		
@@ -897,7 +902,10 @@ footer a {
 
 		.featurednews {
 			width: 380px;
-			margin: 0 15px;
+			
+			margin: 0 auto;
+			
+/*			margin: 0 15px;*/
 		}
 		
 		footer .credits > div {
