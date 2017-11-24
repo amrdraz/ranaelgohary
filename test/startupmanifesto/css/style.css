@@ -154,8 +154,8 @@ nav {
 	nav #closeBurgerMenu {
 		height: 14px;
 		float: right;
-		margin-top: 32px;
-		margin-right: -67px;
+		margin-top: 26px;
+		margin-right: -73px;
 	}
 
 	#mobileMenu {
@@ -213,7 +213,7 @@ nav {
 
 
 .intro {
-	height: 600px;
+	height: 920px;
 	overflow: hidden;
 	
 	position: relative;
@@ -236,14 +236,14 @@ nav {
 	.intro h1 {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 900;
-		font-size: 110px;
-		padding-top: 150px;
+		font-size: 70px;
+		padding-top: 200px;
 	}
 
 	.intro h2 {
 		text-transform: uppercase;
 		font-weight: 300;
-		font-size: 41px;
+		font-size: 26px;
 		line-height: 33px;
 		letter-spacing: 0.045em;
 		padding-top: 13px;
@@ -251,7 +251,7 @@ nav {
 	}
 
 	.intro .fadeinsecond {
-		margin-top: 220px;
+		margin-top: 292px;
 	}
 
 	.intro h3 {
@@ -273,43 +273,45 @@ nav {
 		
 		position: relative;
 		
-		height: 1330px;
+		height: 1070px;
 		
-		background-image: url('../img/about/about_BG.jpg');
+		background-image: url('../img/about/about_BG_2.jpg');
 		background-repeat:no-repeat;
 		-webkit-background-size:cover;
 		-moz-background-size:cover;
 		-o-background-size:cover;
 		background-size:cover;
 		background-position:center;
-		
-		margin-top: -130px;
 	}
 
 		.about .theWayForwards {
-			padding-top: 240px;
+			padding-top: 130px;
 			
-			width: 740px;
+			width: 1000px;
 			margin: 0 auto;
 			
 			color: #1178B2;
 			text-align: center;
 		}
 
-		.about h1 {
+		.about .theWayForwards h1 {
 			font-size: 26px;
 			font-weight: 300;
 		}
 
-		.about h2 {
-			font-size: 86px;
-			font-weight: 800;
+		.about .theWayForwards h2 {
+			font-size: 101px;
+			font-weight: 900;
 			margin-top: -8px;
+			
+			-webkit-text-shadow: 1px 1px 2px rgba(0,0,0,0.28);
+						-moz-text-shadow: 1px 1px 2px rgba(0,0,0,0.28);
+						text-shadow: 1px 1px 2px rgba(0,0,0,0.28);
 		}
 
-		.about p {
-			font-size: 20px;
-			line-height: 30px;
+		.about .theWayForwards p {
+			font-size: 25px;
+			line-height: 40px;
 			font-weight: 500;
 			margin-top: 20px;
 		}
@@ -319,8 +321,8 @@ nav {
 
 
 		.about .subtext {
-			padding-top: 120px;
-			
+			padding-top: 90px;
+			overflow: hidden;
 			width: 800px;
 			margin: 0 auto;
 		}
@@ -328,8 +330,7 @@ nav {
 			.about .subtextinnercontainer {
 				width: 50%;
 				float: left;
-				
-				
+				padding: 0;
 			}
 
 				.about .subtextinnercontainer h1 {
@@ -339,33 +340,60 @@ nav {
 					text-transform: uppercase;
 					color: #fff;
 					
-					-webkit-text-shadow: 1px 1px 2px rgba(217, 209, 0, 0.22);
-						-moz-text-shadow: 1px 1px 2px rgba(0,0,0,0.22);
-						text-shadow: 1px 1px 2px rgba(0,0,0,0.22);
+					-webkit-text-shadow: 1px 1px 2px rgba(0,0,0,0.28);
+						-moz-text-shadow: 1px 1px 2px rgba(0,0,0,0.28);
+						text-shadow: 1px 1px 2px rgba(0,0,0,0.28);
 				}
 
 					.about .subtextinnercontainer p {
+						margin-top: 20px;
 						font-size: 16px;
-						line-height: 22px;
+						letter-spacing: -0.01em;
+						line-height: 24px;
 						font-weight: 500;
 						color: #fff;
 						
-						-webkit-text-shadow: 1px 1px 2px rgba(0,0,0,0.15);
-						-moz-text-shadow: 1px 1px 2px rgba(0,0,0,0.15);
-						text-shadow: 1px 1px 2px rgba(0,0,0,0.15);
+						-webkit-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+						-moz-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+						text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 						
 						
 					}
 
 					.about .subtext .left p {
-						width: 276px;	
+						width: 276px;
 					}
+
+
+		.about .input {
+			width: 100%;
+			text-align: center;
+			color: #fff;
+			margin-top: 90px;
+		}
+
+			.about .input h1 {
+				font-weight: 900;
+				font-size: 36px;
+			}
+
+			.about .input h2 {
+				margin-top: 10px;
+				margin-bottom: 10px;
+				font-weight: 300;
+				font-size: 16px;
+				line-height: 22px;
+				text-transform: uppercase;
+			}
+
+			
+		
 
 
 /*Support*/
 
 #support {
-	background-image: url('../img/support/bluepyramids_2.jpg');
+	background-image: url('../img/support/bluepyramids_4.jpg');
 	background-repeat:no-repeat;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -397,18 +425,18 @@ nav {
 			margin: 15px 0;
 		}
 
-		#support h10 {
+		#support h1 {
 			font-size: 20px;
 			font-weight: 900;
 			letter-spacing: 0.03em;
 		}
 
-		#support h11 {
+		#support h2 {
 			font-size: 74px;
 		}
 
-		#support h12 {
-			font-size: 40px;
+		#support h3 {
+			font-size: 32px;
 			font-weight: 900;
 			letter-spacing: 0.03em;
 			margin-bottom: 20px;
@@ -422,7 +450,7 @@ nav {
 			padding: 5px 0;
 		}
 
-		#support h13 {
+		#support h4 {
 			font-weight: 500;
 			text-transform: uppercase;
 			font-size: 16px;
@@ -517,7 +545,7 @@ nav {
 			height: 11px;
 			width: 11px;
 			background: #fff;
-			border: solid 3px #fcdf00;
+			border: solid 3px #FF7A00;
 
 			-webkit-border-radius: 20px; 
 			-moz-border-radius: 20px; 
@@ -526,7 +554,7 @@ nav {
 
 		#timeline .line {
 			width: 920px;
-			background: #fcdf00;
+			background: #FF7A00;
 			height: 3px;
 
 			margin-left: 90px;
@@ -647,6 +675,7 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 30%, #da4d07 100%);
 			width: 20%;
 			float: left;
 			transition: all 0.4s;
+			margin-top: -1px;
 		}
 
 		#supporters #individuals .individualsupporter:hover {
@@ -683,7 +712,7 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 30%, #da4d07 100%);
 			#supporters #individuals .individualsupporter .text h3 {
 				font-family: 'Montserrat', sans-serif;
 				font-weight: 300;
-				font-size: 14px;
+				font-size: 12px;
 			}
 
 
@@ -720,13 +749,12 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 30%, #da4d07 100%);
 				font-weight: 300;
 
 				font-size: 14px;
-				text-transform: uppercase;
 
 				color: #0077B5;
 
 				padding: 20px;
 
-				width: 558px;
+				width: 60%;
 				height: 18px;
 				
 				float: left;
@@ -743,7 +771,7 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 30%, #da4d07 100%);
 			
 	
 			#contact form #signup {
-				width: 300px;
+				width: 35%;
 				height: 60px;
 				
 				font-family: 'Montserrat', sans-serif;
@@ -755,6 +783,8 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 30%, #da4d07 100%);
 				background: #fcdf00;
 				color: #fff;
 				border: solid 1px #fcdf00;
+				
+				border-radius: 0;
 				
 				float: left;
 				
@@ -862,9 +892,14 @@ footer a {
 	/*	Less than 1500 - LAPTOP SCREENS */  
 
 	@media (max-width: 1500px) {
+		
+		.intro {
+			height: 650px;
+		}
 
 		.intro h1 {
 			font-size: 60px;
+			padding-top: 150px;
 		}
 
 		.intro h2 {
@@ -872,7 +907,9 @@ footer a {
 			letter-spacing: 0.02em;
 		}
 		
-		
+		.intro .fadeinsecond {
+			margin-top: 300px;
+		}
 		
 		#support #waystosupport {
 			width: 912px;
@@ -932,30 +969,118 @@ footer a {
 
 
 
-	/*	Less than 1100 - IPAD LANDSCAPE */  
+	/*	Less than 1100 - TABLET LANDSCAPE */  
 
 	@media (max-width: 1100px) {
 		
-		#timelinecontainer {
-			width: 1040px;
+		.intro {
+			height: 650px;
+		}
+
+		.intro h1 {
+			font-size: 46px;
+			padding-top: 160px;
+		}
+
+		.intro h2 {
+			font-size: 18px;
+			padding-top: 7px;
 		}
 		
-		#timeline .line {
-			width: 870px;
-    		margin-left: 88px;
+		.intro .fadeinsecond {
+			margin-top: 300px;
 		}
 		
-		#timeline #circles {
-			margin-left: 86px;
+		.about {
+			height: 1200px;
 		}
-	}
+		
+		.about .theWayForwards {
+			padding-top: 100px;
+			width: 650px;
+		}
+
+		.about .theWayForwards h1 {
+			font-size: 22px;
+		}
+
+		.about .theWayForwards h2 {
+			font-size: 80px;
+			margin-top: -4px;
+		}
+
+		.about .theWayForwards p {
+			font-size: 18px;
+			line-height: 30px;
+			margin-top: 16px;
+		}
+		
+		.about .subtext {
+			padding-top: 50px;
+			width: 400px;
+		}
+		
+		.about .subtextinnercontainer {
+			width: 100%;
+			padding: 20px 0;
+			text-align: center;
+		}
+		
+		.about .subtext .left h1 {
+			color: #0077B5;
+			font-size: 47px;
+		}
+		
+		.about .subtext .left p {
+			width: 100%;
+			color: #0077B5;
+			text-shadow: none;
+		}
+		
+		.about .input {
+			margin-top: 50px;
+		}
+		
+		#supporters #individuals .individualsupporter, #supporters #organisations .organisationlogo {
+			width: 33.33333%;
+		}
+		
+		#support #waystosupport {
+			width: 500px;
+			margin: 40px auto 0 auto;
+		}
+		
+		#support .onewaytosupport {
+			width: 400px;
+			float: none;
+			padding: 30px 30px;
+			margin: 0 auto;
+		}
+		
+		.featurednewscontainer {
+			width: 700px;
+		}
+		
+		form {
+			width: 700px;
+		}
+		
+		#contact form #email {
+			width: 59%;
+		}
 
 
 		/*	Less than 1100 - IPAD PORTRAIT */  
 
 	@media (max-width: 800px) {
 		
+		form {
+			width: 700px;
+		}
 		
+		#contact form #email {
+			width: 59%;
+		}
 		
 		
 	}
