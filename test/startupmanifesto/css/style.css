@@ -1269,7 +1269,8 @@ footer a {
 		}
 		
 		#contact form #signup {
-			width: 320px;	
+			width: 320px;
+			margin-top: 10px;
 		}
 		
 		footer > div {
