@@ -467,6 +467,7 @@ nav {
 			display: block;
 			text-align: center;
 			font-size: 70px;
+			line-height: 62px;
 			margin-bottom: 20px;
 			color: #0096B5;
 		}
@@ -662,6 +663,7 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 30%, #da4d07 100%);
 		display: block;
 		text-align: center;
 		font-size: 60px;
+		line-height: 42px;
 		margin-bottom: 75px;
 	}
 
@@ -1150,7 +1152,7 @@ footer a {
 		}
 		
 		.about {
-			height: 1200px;
+			height: 1250px;
 		}
 		
 		.about .theWayForwards {
@@ -1180,7 +1182,6 @@ footer a {
 		}
 		
 		.about .subtextinnercontainer {
-			
 			padding: 15px 0;
 			text-align: center;
 		}
@@ -1191,6 +1192,10 @@ footer a {
 			letter-spacing: -0.01em;
 			line-height: 20px;
 			
+		}
+		
+		.about .subtextinnercontainer h1 {
+			line-height: 31px;
 		}
 		
 		.about .subtext .left h1 {
@@ -1208,8 +1213,17 @@ footer a {
 			margin-top: 44px;
 		}
 		
+		.about .input h2 {
+			font-weight: 900;
+		}
+		
 		#supporters h1 {
 			font-size: 50px;	
+		}
+		
+		
+		#supporters #individuals .individualsupporter .text h3 {
+			font-size: 14px;
 		}
 		
 		#supporters #individuals .individualsupporter, #supporters #organisations .organisationlogo {
