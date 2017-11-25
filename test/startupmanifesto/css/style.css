@@ -1307,5 +1307,13 @@ footer a {
 			footer .credits p {
 				font-size: 11.2px;
 			}
+		
+			footer .credits .letterlust img {
+				margin-top: 0;
+			}
+
+			footer .credits .bit68 img {
+				margin-top: 0;
+			}
 
 	}
