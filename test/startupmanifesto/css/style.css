@@ -1130,6 +1130,8 @@ footer a {
 			line-height: 19px;
 			padding-top: 10px;
 			font-weight: 500;
+			width: 300px;
+			margin: 0 auto;
 		}
 		
 		.intro h3 {
