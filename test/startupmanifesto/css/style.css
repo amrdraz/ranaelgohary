@@ -471,7 +471,7 @@ nav {
 			color: #0096B5;
 		}
 
-		#timelinecontainer {
+		#timelinecontainerdesktop {
 			display: block;
 			margin: 0 auto;
 			
@@ -483,7 +483,7 @@ nav {
 		}
 
 
-		#timelinecontainer .text {
+		#timelinecontainerdesktop .text {
 			overflow: hidden;
 			text-transform: uppercase;
 			
@@ -528,7 +528,7 @@ nav {
 				}
 
 
-		#timelinecontainer h2, #timelinecontainer .circleContainer {
+		#timelinecontainerdesktop h2, #timelinecontainerdesktop .circleContainer {
 			width: 16.666666666%;
 			float: left;
 			text-align: center;
@@ -815,6 +815,7 @@ footer a {
 		background: #0077B5;
 		color: #fff;
 		letter-spacing: 0.01em;
+		text-transform: uppercase;
 	}
 		
 		footer .credits > div {
@@ -936,7 +937,6 @@ footer a {
 
 		.featurednews {
 			width: 380px;
-			
 			margin: 0 auto;
 			
 /*			margin: 0 15px;*/
@@ -1056,8 +1056,12 @@ footer a {
 			margin: 0 auto;
 		}
 		
+		#timelinecontainerdesktop {
+			display: none;	
+		}
+		
 		.featurednewscontainer {
-			width: 700px;
+			width: 640px
 		}
 		
 		form {
@@ -1156,6 +1160,7 @@ footer a {
 
 		.about .theWayForwards h1 {
 			font-size: 15px;
+			font-weight: 500;
 		}
 
 		.about .theWayForwards h2 {
@@ -1172,8 +1177,6 @@ footer a {
 		.about .subtext {
 			padding-top: 50px;
 			width: 320px;
-			
-			
 		}
 		
 		.about .subtextinnercontainer {
@@ -1212,5 +1215,82 @@ footer a {
 		#supporters #individuals .individualsupporter, #supporters #organisations .organisationlogo {
 			width: 100%;
 		}
+		
+		#support #waystosupport {
+			width: 320px;
+			margin: 40px auto 0 auto;
+		}
+		
+		#support .onewaytosupport {
+			width: 320px;
+			float: none;
+			padding: 30px 0;
+			margin: 0 auto;
+		}
+		
+		.featurednewscontainer {
+			width: 320px;
+		}
+
+
+		.featurednews {
+			width: 100%;
+		}
+
+		.featurednews img {
+			width: 100%;
+		}
+
+		.featurednews .text {
+			padding: 22px;
+			text-align: center;
+		}
+		
+		form {
+			width: 320px;
+		}
+		
+		#contact form #email {
+			width: 278px;
+		}
+		
+		#contact form #signup {
+			width: 320px;	
+		}
+		
+		footer > div {
+			height: 96px;
+		}
+
+		footer p {
+			font-size: 16px;
+			line-height: 22px;
+			width: 320px;
+			margin: 0 auto;
+		}
+		
+		footer .credits {
+			height: 104px;
+			text-transform: none;
+		}
+		
+		footer .credits > div {
+			width: 320px;
+			margin: 0 auto;
+		}
+
+			footer .credits .letterlust {
+				float: left;
+				
+			}
+
+			footer .credits .bit68 {
+				float: none;
+				padding-top: 26px;
+			}
+		
+			footer .credits p {
+				font-size: 11.2px;
+			}
 
 	}
