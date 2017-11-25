@@ -623,8 +623,8 @@ background: linear-gradient(to bottom, rgba(0,167,201,1) 30%, #da4d07 100%);
 	}
 
 	.featurednews h3 {
-		margin-top: 12px;
-		color: #9a9a9a;
+		margin-top: 10px;
+		color: #818181;
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 300;
 		font-size: 14px;
