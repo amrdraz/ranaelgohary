@@ -1129,10 +1129,12 @@ footer a {
 			font-size: 18px;
 			line-height: 19px;
 			padding-top: 10px;
+			font-weight: 500;
 		}
 		
 		.intro h3 {
 			font-size: 14px;
+			font-weight: 500;
 		}
 		
 		.intro .fadeinsecond {
