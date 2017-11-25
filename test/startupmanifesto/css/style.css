@@ -356,8 +356,6 @@ nav {
 						-webkit-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 						-moz-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 						text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-						
-						
 					}
 
 					.about .subtext .left p {
@@ -1077,6 +1075,10 @@ footer a {
 
 	@media (max-width: 800px) {
 		
+		#supporters #individuals .individualsupporter, #supporters #organisations .organisationlogo {
+			width: 50%;
+		}
+		
 		form {
 			width: 700px;
 		}
@@ -1103,17 +1105,17 @@ footer a {
 			margin-top: 15px;
 		}
 		
-	nav	#openBurgerMenu {
-		height: 11px;
-		margin-top: 33px;
-		margin-right: 14px;
-	}
+		nav	#openBurgerMenu {
+			height: 11px;
+			margin-top: 33px;
+			margin-right: 14px;
+		}
 
-	nav #closeBurgerMenu {
-		height: 11px;
-		margin-top: 33px;
-		margin-right: -57px;
-	}
+		nav #closeBurgerMenu {
+			height: 11px;
+			margin-top: 33px;
+			margin-right: -57px;
+		}
 		
 		
 		.intro {
@@ -1141,6 +1143,74 @@ footer a {
 		
 		.intro .fadeinsecond {
 			margin-top: 200px;
+		}
+		
+		.about {
+			height: 1200px;
+		}
+		
+		.about .theWayForwards {
+			padding-top: 80px;
+			width: 300px;
+		}
+
+		.about .theWayForwards h1 {
+			font-size: 15px;
+		}
+
+		.about .theWayForwards h2 {
+			font-size: 50px;
+			margin-top: -4px;
+		}
+
+		.about .theWayForwards p {
+			font-size: 14.5px;
+			line-height: 20px;
+			margin-top: 14px;
+		}
+		
+		.about .subtext {
+			padding-top: 50px;
+			width: 320px;
+			
+			
+		}
+		
+		.about .subtextinnercontainer {
+			
+			padding: 15px 0;
+			text-align: center;
+		}
+		
+		.about .subtextinnercontainer p {
+			margin-top: 20px;
+			font-size: 14.5px;
+			letter-spacing: -0.01em;
+			line-height: 20px;
+			
+		}
+		
+		.about .subtext .left h1 {
+			color: #0077B5;
+			font-size: 40px;
+		}
+		
+		.about .subtext .left p {
+			width: 100%;
+			color: #0077B5;
+			text-shadow: none;
+		}
+		
+		.about .input {
+			margin-top: 44px;
+		}
+		
+		#supporters h1 {
+			font-size: 50px;	
+		}
+		
+		#supporters #individuals .individualsupporter, #supporters #organisations .organisationlogo {
+			width: 100%;
 		}
 
 	}
