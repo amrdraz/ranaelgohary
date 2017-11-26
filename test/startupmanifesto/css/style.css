@@ -387,7 +387,21 @@ nav {
 			}
 
 			
-		
+/*Discussion*/
+
+	#discussion {
+		text-align: center;
+	}
+
+		#discussion h1 {
+			font-size: 60px;
+			margin-top: 50px;
+		}
+
+			#discussion iframe {
+				width: 800px;
+				margin: 0 auto;
+			}
 
 
 /*Support*/
