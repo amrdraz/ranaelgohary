@@ -390,12 +390,12 @@ nav {
 /*Discussion*/
 
 	#discussion {
-		text-align: center;
 	}
 
 		#discussion h1 {
 			font-size: 60px;
 			margin-top: 50px;
+			text-align: center;
 		}
 
 			#discussion iframe {
@@ -1058,6 +1058,14 @@ footer a {
 			margin-top: 50px;
 		}
 		
+		#discussion h1 {
+			font-size: 40px;
+		}
+
+		#discussion iframe {
+			width: 600px;
+		}
+		
 		#supporters #individuals .individualsupporter, #supporters #organisations .organisationlogo {
 			width: 33.33333%;
 		}
@@ -1233,10 +1241,13 @@ footer a {
 			font-weight: 500;
 		}
 		
+		#discussion iframe {
+			width: 320px;
+		}
+		
 		#supporters h1 {
 			font-size: 50px;	
 		}
-		
 		
 		#supporters #individuals .individualsupporter .text h3 {
 			font-size: 14px;
