@@ -391,7 +391,7 @@ nav {
 
 	#discussion {
 		text-align: center;
-		width: 900px;
+		width: 980px;
 		margin: 0 auto;
 	}
 
@@ -1069,7 +1069,7 @@ footer a {
 		}
 
 		#discussion {
-			width: 550px;
+			width: 500px;
 		}
 		
 		#supporters #individuals .individualsupporter, #supporters #organisations .organisationlogo {
