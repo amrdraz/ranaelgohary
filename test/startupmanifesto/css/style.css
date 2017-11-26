@@ -391,6 +391,8 @@ nav {
 
 	#discussion {
 		text-align: center;
+		width: 800px;
+		margin: 0 auto;
 	}
 
 		#discussion h1 {
@@ -400,9 +402,12 @@ nav {
 		}
 
 			#discussion iframe {
-				width: 800px;
 				margin: 30px auto 50px auto;
 			}
+
+		.fb_iframe_widget_fluid span, iframe.fb_ltr { 
+			width: 100% !important; 
+		}
 
 
 /*Support*/
@@ -1063,7 +1068,7 @@ footer a {
 			font-size: 40px;
 		}
 
-		#discussion iframe {
+		#discussion {
 			width: 600px;
 		}
 		
@@ -1242,7 +1247,7 @@ footer a {
 			font-weight: 500;
 		}
 		
-		#discussion iframe {
+		#discussion {
 			width: 320px;
 		}
 		
