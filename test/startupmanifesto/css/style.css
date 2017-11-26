@@ -114,7 +114,7 @@ nav {
 
 	#navlist li {
 		display: inline;
-		margin-right: 44px;
+		margin-right: 36px;
 	}
 
 	#navlist #signup {
@@ -270,7 +270,7 @@ nav {
 
 /*About*/
 
-	.about {
+	#about {
 		z-index: 0;
 		
 		position: relative;
@@ -286,7 +286,7 @@ nav {
 		background-position:center;
 	}
 
-		.about .theWayForwards {
+		#about .theWayForwards {
 			padding-top: 130px;
 			
 			width: 1000px;
@@ -296,12 +296,12 @@ nav {
 			text-align: center;
 		}
 
-		.about .theWayForwards h1 {
+		#about .theWayForwards h1 {
 			font-size: 26px;
 			font-weight: 300;
 		}
 
-		.about .theWayForwards h2 {
+		#about .theWayForwards h2 {
 			font-size: 101px;
 			font-weight: 900;
 			margin-top: -8px;
@@ -311,7 +311,7 @@ nav {
 						text-shadow: 1px 1px 2px rgba(0,0,0,0.28);
 		}
 
-		.about .theWayForwards p {
+		#about .theWayForwards p {
 			font-size: 25px;
 			line-height: 40px;
 			font-weight: 500;
@@ -322,20 +322,20 @@ nav {
 
 
 
-		.about .subtext {
+		#about .subtext {
 			padding-top: 90px;
 			overflow: hidden;
 			width: 800px;
 			margin: 0 auto;
 		}
 
-			.about .subtextinnercontainer {
+			#about .subtextinnercontainer {
 				width: 50%;
 				float: left;
 				padding: 0;
 			}
 
-				.about .subtextinnercontainer h1 {
+				#about .subtextinnercontainer h1 {
 					font-size: 33px;
 					line-height: 37px;
 					font-weight: 900;
@@ -347,7 +347,7 @@ nav {
 						text-shadow: 1px 1px 2px rgba(0,0,0,0.28);
 				}
 
-					.about .subtextinnercontainer p {
+					#about .subtextinnercontainer p {
 						margin-top: 20px;
 						font-size: 16px;
 						letter-spacing: -0.01em;
@@ -360,24 +360,24 @@ nav {
 						text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 					}
 
-					.about .subtext .left p {
+					#about .subtext .left p {
 						width: 276px;
 					}
 
 
-		.about .input {
+		#about .input {
 			width: 100%;
 			text-align: center;
 			color: #fff;
 			margin-top: 90px;
 		}
 
-			.about .input h1 {
+			#about .input h1 {
 				font-weight: 900;
 				font-size: 36px;
 			}
 
-			.about .input h2 {
+			#about .input h2 {
 				margin-top: 10px;
 				margin-bottom: 20px;
 				font-weight: 300;
@@ -994,53 +994,53 @@ footer a {
 			margin-top: 300px;
 		}
 		
-		.about {
+		#about {
 			height: 1200px;
 		}
 		
-		.about .theWayForwards {
+		#about .theWayForwards {
 			padding-top: 100px;
 			width: 650px;
 		}
 
-		.about .theWayForwards h1 {
+		#about .theWayForwards h1 {
 			font-size: 22px;
 		}
 
-		.about .theWayForwards h2 {
+		#about .theWayForwards h2 {
 			font-size: 80px;
 			margin-top: -4px;
 		}
 
-		.about .theWayForwards p {
+		#about .theWayForwards p {
 			font-size: 18px;
 			line-height: 30px;
 			margin-top: 16px;
 		}
 		
-		.about .subtext {
+		#about .subtext {
 			padding-top: 50px;
 			width: 400px;
 		}
 		
-		.about .subtextinnercontainer {
+		#about .subtextinnercontainer {
 			width: 100%;
 			padding: 20px 0;
 			text-align: center;
 		}
 		
-		.about .subtext .left h1 {
+		#about .subtext .left h1 {
 			color: #0077B5;
 			font-size: 47px;
 		}
 		
-		.about .subtext .left p {
+		#about .subtext .left p {
 			width: 100%;
 			color: #0077B5;
 			text-shadow: none;
 		}
 		
-		.about .input {
+		#about .input {
 			margin-top: 50px;
 		}
 		
@@ -1153,42 +1153,42 @@ footer a {
 			margin-top: 200px;
 		}
 		
-		.about {
+		#about {
 			height: 1220px;
 		}
 		
-		.about .theWayForwards {
+		#about .theWayForwards {
 			padding-top: 80px;
 			width: 300px;
 		}
 
-		.about .theWayForwards h1 {
+		#about .theWayForwards h1 {
 			font-size: 15px;
 			font-weight: 500;
 		}
 
-		.about .theWayForwards h2 {
+		#about .theWayForwards h2 {
 			font-size: 50px;
 			margin-top: -4px;
 		}
 
-		.about .theWayForwards p {
+		#about .theWayForwards p {
 			font-size: 14.5px;
 			line-height: 20px;
 			margin-top: 14px;
 		}
 		
-		.about .subtext {
+		#about .subtext {
 			padding-top: 50px;
 			width: 320px;
 		}
 		
-		.about .subtextinnercontainer {
+		#about .subtextinnercontainer {
 			padding: 15px 0;
 			text-align: center;
 		}
 		
-		.about .subtextinnercontainer p {
+		#about .subtextinnercontainer p {
 			margin-top: 20px;
 			font-size: 14.5px;
 			letter-spacing: -0.01em;
@@ -1196,26 +1196,26 @@ footer a {
 			
 		}
 		
-		.about .subtextinnercontainer h1 {
+		#about .subtextinnercontainer h1 {
 			line-height: 31px;
 		}
 		
-		.about .subtext .left h1 {
+		#about .subtext .left h1 {
 			color: #0077B5;
 			font-size: 40px;
 		}
 		
-		.about .subtext .left p {
+		#about .subtext .left p {
 			width: 100%;
 			color: #0077B5;
 			text-shadow: none;
 		}
 		
-		.about .input {
+		#about .input {
 			margin-top: 44px;
 		}
 		
-		.about .input h2 {
+		#about .input h2 {
 			font-weight: 500;
 		}
 		
