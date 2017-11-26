@@ -252,12 +252,14 @@ nav {
 
 	.intro .fadeinsecond {
 		margin-top: 292px;
+		cursor: pointer;
 	}
 
 	.intro h3 {
 		font-weight: 300;
 		font-size: 18px;
 		text-transform: uppercase;
+		margin-bottom: 10px;
 	}
 
 .intro > img {
@@ -377,7 +379,7 @@ nav {
 
 			.about .input h2 {
 				margin-top: 10px;
-				margin-bottom: 10px;
+				margin-bottom: 20px;
 				font-weight: 300;
 				font-size: 16px;
 				line-height: 22px;
