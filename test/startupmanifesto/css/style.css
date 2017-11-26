@@ -390,6 +390,7 @@ nav {
 /*Discussion*/
 
 	#discussion {
+		text-align: center;
 	}
 
 		#discussion h1 {
