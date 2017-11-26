@@ -31,6 +31,15 @@
 	
 	<body>
 		
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		
 		
 		
 <!--	Header-->
@@ -126,12 +135,18 @@
 		
 <!--	About Closing-->
 		
+<!--	Facebook Comments-->	
 		
+		<div  data-scroll-index="1">
+			
+			<h1 class="blueitalicheadline">Share your comments</h1>
 		
+		<div class="fb-comments" data-href="http://ranaelgohary.com/test/startupmanifesto" data-width="980" data-numposts="10"></div>
 
-		
-		
-		
+		</div>
+			
+			
+<!--	Facebook Comments Closing-->
 
 <!--	Supporters-->
 		
