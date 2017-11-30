@@ -61,6 +61,25 @@ $(document).ready(function(){
 	
 	
 	
+	$( "#articleclose" ).click(function() {
+	
+		$("#article").css("display","none")
+
+	});
+	
+
+	
+	$( "#readmore" ).click(function() {
+	
+			$("#article").css("display","block")
+
+	});
+	
+	
+	
+	
+	
+	
 	
 	
 //	Scroll Reveal

@@ -277,7 +277,7 @@ nav {
 		
 		height: 1070px;
 		
-		background-image: url('../img/about/about_BG_3.jpg');
+		background-image: url('../img/about/about_BG.jpg');
 		background-repeat:no-repeat;
 		-webkit-background-size:cover;
 		-moz-background-size:cover;
@@ -413,7 +413,7 @@ nav {
 /*Support*/
 
 #support {
-	background-image: url('../img/support/bluepyramids_3.jpg');
+	background-image: url('../img/support/bluepyramids.jpg');
 	background-repeat:no-repeat;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -497,73 +497,69 @@ nav {
 		#timelinecontainerdesktop {
 			display: block;
 			margin: 0 auto;
-			
-			width: 1100px;
-			
 			overflow: hidden;
-			
-			
+			width: 1100px;
 		}
 
 
 		#timelinecontainerdesktop .text {
 			overflow: hidden;
 			text-transform: uppercase;
-			
 			font-size: 14px;
 			line-height: 17px;
 		}
 
 			
 
-			#timeline .events {
+			#timelinecontainerdesktop .events {
 				margin-top: 40px;
 				margin-bottom: 20px;
 			}
 				
 
-			#timeline .dates {
+			#timelinecontainerdesktop .dates {
 				margin-top: 30px;
 				margin-bottom: 15px;
 			}
 
-				#timeline .events h2 {
-					font-family: 'Montserrat', sans-serif;
+				#timelinecontainerdesktop .events h2 {
 					font-weight: 900;
 				}
 
-				#timeline .dates h2 {
-					font-family: 'Montserrat', sans-serif;
+				#timelinecontainerdesktop .dates h2 {
 					font-weight: 300;
 				}
 
 
-				#timeline .events .twolines {
+				#timelinecontainerdesktop .events .twolines {
 					 margin-top: 9px;
 				}
 
-				#timeline .events .oneline {
+				#timelinecontainerdesktop .events .oneline {
 					margin-top: 17px;
 				}
 
-				#timeline .dates .oneline {
+				#timelinecontainerdesktop .dates .oneline {
 					margin-top: 9px;
 				}
 
 
 		#timelinecontainerdesktop h2, #timelinecontainerdesktop .circleContainer {
-			width: 16.666666666%;
+			
+			width: 15.5%;
+			
 			float: left;
 			text-align: center;
 		}
 
-		#timeline #circles {
+		#timelinecontainerdesktop #circles {
 			overflow: hidden;
 			width: 100%;
-			margin-left: 90px;
+			
+			margin-left: 78px;
 		}
 
-		#timeline .circle {
+		#timelinecontainerdesktop .circle {
 			height: 11px;
 			width: 11px;
 			background: #fff;
@@ -574,7 +570,7 @@ nav {
 			border-radius: 20px; 
 		}
 
-		#timeline .line {
+		#timelinecontainerdesktop .line {
 			width: 920px;
 			background: #FF7A00;
 			height: 3px;
@@ -582,6 +578,122 @@ nav {
 			margin-left: 90px;
 			margin-top: -10px;
 		}
+
+		#timelinecontainerdesktop .line img {
+			float: right;
+			margin-top: -12px;
+			margin-right: -3px;
+			height: 27px;
+		}
+
+
+		/*		Mobile Timeline*/
+
+		#timelinecontainermobile {
+			display: none;
+			margin: 0 auto;
+			overflow: hidden;
+			width: 398px;
+			margin-top: 45px;
+		}
+
+
+		#timelinecontainermobile .text {
+			overflow: hidden;
+			text-transform: uppercase;
+			font-size: 14px;
+			line-height: 17px;
+		}
+
+			#timelinecontainermobile .events {
+				width: 190px;
+				float: left;
+				text-align: center;
+			}
+				
+
+			#timelinecontainermobile .dates {
+				width: 190px;
+				float: left;
+				text-align: center;
+			}
+
+			#timelinecontainermobile .events h2 {
+				font-weight: 900;
+			}
+
+			#timelinecontainermobile .dates h2 {
+				font-weight: 300;
+			}
+
+			#timelinecontainermobile .events .threelines {
+				padding-top: 14px;
+				padding-bottom: 13px;
+			}
+			
+			#timelinecontainermobile .events .twolines {
+				padding-top: 20px;
+				padding-bottom: 20px;
+			}
+
+			#timelinecontainermobile .events .oneline {
+				padding-top: 26px;
+				padding-bottom: 26px;
+			}
+
+			#timelinecontainermobile .dates .twolines {
+				padding-top: 20px;
+				padding-bottom: 20px;
+			}
+
+			#timelinecontainermobile .dates .oneline {
+				padding-top: 29px;
+				padding-bottom: 28px;
+			}
+
+			#timelinecontainermobile #circles {
+				overflow: hidden;
+				width: 17px;
+				float: left;
+				margin-top: 30px;
+			}
+
+			#timelinecontainermobile .circle {
+				height: 11px;
+				width: 11px;
+				background: #fff;
+				border: solid 3px #FF7A00;
+
+				margin-bottom: 57px;
+
+				position: relative;
+				z-index: 1;
+
+				-webkit-border-radius: 20px; 
+				-moz-border-radius: 20px; 
+				border-radius: 20px; 
+			}
+
+			#timelinecontainermobile .line {
+				height: 460px;
+				background: #FF7A00;
+				width: 3px;
+				float: left;
+				margin-top: 30px;
+				margin-left: -10px;
+
+				position: relative;
+				z-index: -1;
+			}
+
+			#timelinecontainermobile .line img {
+				position: absolute;
+				bottom: 0;
+				left: -8px;
+				width: 19px;
+			}
+
+
 
 /*News*/
 
@@ -675,6 +787,65 @@ background: linear-gradient(to bottom, rgba(0,198,229,1) 30%, #ff5500 100%);
 			color: #fcdf00;
 		}
 
+
+	/*	New Article*/
+
+	#news #article {
+		width: 700px;
+		padding: 66px;
+		margin: -404px auto 0 auto;
+		position: relative;
+    	z-index: 10;
+		
+		display: none;
+		
+		background: #fff;
+	}
+
+		#news #article #articleclose {
+			position: absolute;
+			top: 35px;
+			right: 35px;
+			width: 26px;
+			transition: transform 0.1s;
+		}
+
+			#news #article #articleclose:hover {
+				-webkit-transform: rotate(90deg);
+				-moz-transform:    rotate(90deg);
+				-ms-transform:     rotate(90deg);
+				-o-transform:      rotate(90deg);
+				transform:         rotate(90deg);
+				cursor: pointer;
+			}
+
+		#news #article h1 {
+			color: #000;
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 30px;
+			font-weight: 900;
+		}
+
+			#news #article p {
+				margin: 40px auto 0 auto;
+				color: #606060;
+				width: 600px;
+				font-size: 16px;
+				line-height: 24px;
+				font-weight: 500;
+			}
+
+				#news #article p img {
+					width: 100%;
+					margin-top: 5px;
+				}
+
+				#news #article p a {
+					color: #0077B5;
+				}
+
+
 /*Supporters*/
 
 #supporters {
@@ -756,48 +927,12 @@ background: linear-gradient(to bottom, rgba(0,198,229,1) 30%, #ff5500 100%);
 			margin-bottom: 40px;
 		}
 
-		form {
-			width: 900px;
-			display: block;
-			margin: 0 auto;
-			overflow: hidden;
-		}
-
-			#contact form #email {
+		#contact #signup {
+				width: 600px;
+				padding: 30px 0 30px 20px;
+				margin: 0 auto;
 				
-				background: #FFFFFF;
-				border: solid 1px #fcdf00;
-
-				font-family: 'Montserrat', sans-serif;
-				font-weight: 300;
-
-				font-size: 14px;
-
-				color: #0077B5;
-
-				padding: 20px;
-
-				width: 60%;
-				height: 18px;
-				
-				float: left;
-				
-			}
-
-
-			#contact form #email:focus {
-				outline: 0;
-				background: #f8f8f8;
-			}
-
-			
-			
-	
-			#contact form #signup {
-				width: 35%;
-				height: 60px;
-				
-				font-family: 'Montserrat', sans-serif;
+				text-align: center;
 				font-weight: 900;
 				letter-spacing: 0.04em;
 				font-size: 14px;
@@ -805,15 +940,26 @@ background: linear-gradient(to bottom, rgba(0,198,229,1) 30%, #ff5500 100%);
 				
 				background: #fcdf00;
 				color: #fff;
-				border: solid 1px #fcdf00;
+				border: solid #fcdf00 1px;
 				
-				border-radius: 0;
-				
-				float: left;
-				
-				transition: all 0.2s;
+				transition: all 0.4s;
 			}
 
+			#contact #signup img {
+				height: 13px;
+				margin-left: 10px;
+			}
+
+		#contact #signup:hover {
+			border: solid #fcdf00 1px;
+			color: #fcdf00;
+			background: none;
+			
+		}
+
+		#contact #signup:hover img {
+			color: #fcdf00;
+		}
 
 /*Footer*/
 
@@ -1064,6 +1210,8 @@ footer a {
 			margin-top: 50px;
 		}
 		
+		
+		
 		#discussion h1 {
 			font-size: 40px;
 		}
@@ -1092,19 +1240,34 @@ footer a {
 			display: none;	
 		}
 		
+		#timelinecontainermobile {
+			display: block;
+		}
+		
 		.featurednewscontainer {
 			width: 640px
 		}
 		
-		form {
-			width: 700px;
+		#news #article {
+			width: 460px;
+			padding: 66px 40px;
+			margin: -404px auto 0 auto;
+		}
+
+		#news #article h1 {
+				font-size: 28px;
+			}
+
+		#news #article p {
+			width: 460px;
+			font-size: 14px;
+			line-height: 22px;
 		}
 		
-		#contact form #email {
-			width: 59%;
-		}
+		#contact #signup {
+				width: 500px;
 		
-	}
+		}
 
 
 		/*	Less than 1100 - IPAD PORTRAIT */  
@@ -1113,14 +1276,6 @@ footer a {
 		
 		#supporters #individuals .individualsupporter, #supporters #organisations .organisationlogo {
 			width: 50%;
-		}
-		
-		form {
-			width: 700px;
-		}
-		
-		#contact form #email {
-			width: 59%;
 		}
 		
 		
@@ -1293,17 +1448,31 @@ footer a {
 			text-align: center;
 		}
 		
-		form {
-			width: 320px;
+		#news #article #articleclose {
+			top: 30px;
+			right: 30px;
+			width: 20px;
 		}
 		
-		#contact form #email {
-			width: 278px;
+		#news #article {
+			width: 300px;
+			padding: 66px 30px;
+			margin: -404px auto 0 auto;
+		}
+
+		#news #article h1 {
+				font-size: 22px;
+			}
+
+		#news #article p {
+			width: 290px;
+			font-size: 14px;
+			line-height: 20px;
 		}
 		
-		#contact form #signup {
-			width: 320px;
-			margin-top: 10px;
+		#contact #signup {
+				width: 320px;
+		
 		}
 		
 		footer > div {
