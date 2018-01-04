@@ -94,9 +94,9 @@ nav {
 	
 
 	nav #manifestologo {
-		height: 40px;
+		height: 56px;
 		margin-left: 60px;
-		margin-bottom: 3px;
+		margin-bottom: -8px;
 	}
 
 	nav #poweredbyriseup {
@@ -275,7 +275,7 @@ nav {
 		
 		position: relative;
 		
-		height: 1070px;
+		height: 1000px;
 		
 		background-image: url('../img/about/about_BG.jpg');
 		background-repeat:no-repeat;
@@ -574,7 +574,7 @@ nav {
 		#timelinecontainerdesktop .circle {
 			height: 11px;
 			width: 11px;
-			background: #fff;
+			background: #fcdf00;
 			border: solid 3px #FF7A00;
 
 			-webkit-border-radius: 20px; 
@@ -1173,7 +1173,7 @@ footer a {
 		}
 		
 		#about {
-			height: 1200px;
+			height: 1130px;
 		}
 		
 		#about .theWayForwards {
@@ -1349,7 +1349,7 @@ footer a {
 		}
 		
 		#about {
-			height: 1220px;
+			height: 1050px;
 		}
 		
 		#about .theWayForwards {
