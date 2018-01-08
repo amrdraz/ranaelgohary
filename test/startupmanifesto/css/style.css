@@ -490,6 +490,19 @@ nav {
 				color: #fff;	
 			}
 
+		.sharebuttons {
+			height: 10px;
+			overflow: hidden;
+		}
+
+		.fbshare {
+			margin-top: -30px;
+		}
+
+		.fb-share-button {
+			line-height: 0;
+		}
+
 /*Timeline*/
 
 #timeline {
