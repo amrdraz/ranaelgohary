@@ -865,53 +865,53 @@ background: linear-gradient(to bottom, rgba(0,198,229,1) 30%, #ff5500 100%);
 
 /*Supporters*/
 
-#supporters {
+.supporters {
 	padding-top: 60px;
 }
 
-	#supporters h1 {
+	.supporters h1 {
 		display: block;
 		text-align: center;
-		font-size: 60px;
-		line-height: 42px;
+		font-size: 50px;
+		line-height: 50px;
 		margin-bottom: 75px;
 	}
 
-	#supporters #individuals, #supporters #organisations {
+	.supporters #individuals, .supporters #organisations {
 		width: 100%;
 		overflow: hidden;
 	}
 
-		#supporters #individuals .individualsupporter, #supporters #organisations .organisationlogo {
+		.supporters #individuals .individualsupporter, .supporters #organisations .organisationlogo {
 			width: 20%;
 			float: left;
 			transition: all 0.4s;
 			margin-top: -1px;
 		}
 
-		#supporters #individuals .individualsupporter:hover {
+		.supporters #individuals .individualsupporter:hover {
 			opacity: 0.8;
 		}
 
-		#supporters #organisations .organisationlogo:hover {
+		.supporters #organisations .organisationlogo:hover {
 			transform: scale(1.1);
 		}
 
-			#supporters #individuals .individualsupporter a {
+			.supporters #individuals .individualsupporter a {
 				color: #fcdf00;	
 			}
 
-			#supporters #individuals .individualsupporter img {
+			.supporters #individuals .individualsupporter img {
 				width: 100%;	
 			}
 
-			#supporters #individuals .individualsupporter .text {
+			.supporters #individuals .individualsupporter .text {
 				margin-top: -86px;
 				margin-left: 20px;
 				margin-bottom: 20px;
 			}
 
-			#supporters #individuals .individualsupporter .text h2 {
+			.supporters #individuals .individualsupporter .text h2 {
 				font-family: 'Montserrat', sans-serif;
 				font-weight: 900;
 				font-size: 18px;
@@ -920,7 +920,7 @@ background: linear-gradient(to bottom, rgba(0,198,229,1) 30%, #ff5500 100%);
 				
 			}
 
-			#supporters #individuals .individualsupporter .text h3 {
+			.supporters #individuals .individualsupporter .text h3 {
 				font-family: 'Montserrat', sans-serif;
 				font-weight: 300;
 				font-size: 12px;
@@ -1234,7 +1234,7 @@ footer a {
 			width: 500px;
 		}
 		
-		#supporters #individuals .individualsupporter, #supporters #organisations .organisationlogo {
+		.supporters #individuals .individualsupporter, .supporters #organisations .organisationlogo {
 			width: 33.33333%;
 		}
 		
@@ -1288,7 +1288,7 @@ footer a {
 
 	@media (max-width: 800px) {
 		
-		#supporters #individuals .individualsupporter, #supporters #organisations .organisationlogo {
+		.supporters #individuals .individualsupporter, .supporters #organisations .organisationlogo {
 			width: 50%;
 		}
 		
@@ -1420,15 +1420,16 @@ footer a {
 			width: 320px;
 		}
 		
-		#supporters h1 {
-			font-size: 50px;	
+		.supporters h1 {
+			font-size: 40px;
+			line-height: 40px;
 		}
 		
-		#supporters #individuals .individualsupporter .text h3 {
+		.supporters #individuals .individualsupporter .text h3 {
 			font-size: 14px;
 		}
 		
-		#supporters #individuals .individualsupporter, #supporters #organisations .organisationlogo {
+		.supporters #individuals .individualsupporter, .supporters #organisations .organisationlogo {
 			width: 100%;
 		}
 		
